@@ -1,0 +1,88 @@
+---
+layout: page
+title: R Users Group Ecuador
+subtitle: Bienvenido a la web oficial de usuarios de R en Ecuador
+published: true
+comments: true
+---
+
+
+<center><img src="/img/r2.png" alt="R Users Group Ecuador" ></center>
+<br>
+
+<div class="main-explain-area jumbotron">
+  R Users Group - Ecuador es una comunidad creada con el propósito de promoveer el uso del software estadístico R Project, además de fomentar la aplicación adecuada de las técncias estadísticas en los diferentes campos de la investigación, docencia y empresarial.
+</div>
+
+
+<div class="post-entry">
+        <h1 class="post-title">News</h1>
+	<div style="text-align:center;">
+	<a class="twitter-timeline" href="https://twitter.com/CrisbenCRB">Tweets by CrisbenCRB</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+</div>
+
+<div class="post-entry">
+	{% if paginator.page == 1 %}
+	<!-- FACEBOOK -->
+	<h1 class="post-title">Follow Teampass</h1>
+	<div style="text-align:center;">
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1&appId=244629032269611";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<div class="fb-like-box" data-href="http://www.facebook.com/crisben.crb/" data-width="600" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
+	</div>
+	<!-- TWITTER -->
+	<div style="text-align:center;"><br />
+	<a href="https://twitter.com/Rgrupoec" class="twitter-follow-button" data-show-count="true" data-lang="en" data-size="large">Follow @Rgrupoec</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
+	{% endif %}
+</div>
+
+<div class="posts-list">
+  {% for post in paginator.posts %}
+  {% if post.categories contains 'releases' %}
+  <article class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+	  <h2 class="post-title">{{ post.title }}</h2>
+	
+	  {% if post.subtitle %}
+	  <h3 class="post-subtitle">
+	    {{ post.subtitle }}
+	  </h3>
+	  {% endif %}  
+    </a>
+    <p class="post-meta">
+      Posted on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
+  
+    <div class="post-entry">
+      {{ post.content | truncatewords: 50 | strip_html}}
+	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+    </div>
+  
+   </article>
+  {% endif %} 
+  {% endfor %}
+</div>
+{% if paginator.total_pages > 1 %}
+<ul class="pager main-pager">
+  {% if paginator.previous_page %}
+  <li class="previous">
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li class="next">
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
