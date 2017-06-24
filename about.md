@@ -7,12 +7,12 @@ group: navigation
 published: true
 ---
 
-<b>R Users Group - Ecuador<b> es una comunidad creada con el propósito de promoveer el uso del software estadístico R Project, además de fomentar la aplicación adecuada de las técncias estadísticas en los diferentes campos de la investigación, docencia y empresarial.
+<b>R Users Group - Ecuador<b> es una comunidad creada con el propósito de promover el uso del software estadístico R Project, además de fomentar la aplicación adecuada de las técnicias estadísticas.
 
 Entre los objetivos de la comunidad de usuarios de R en Ecuador se encuentran los siguientes:
 
 * Ser una plataforma para la divulgación de trabajos de usuarios de R.
-* Promocionar otros eventos de empresas o consultores que trabajen o capaciten en R.
+* Promocionar eventos de empresas o consultores que trabajen o capaciten en R.
 * Impulsar proyectos de datos con R que ayuden a la construcción de conocimiento.
 * Promover la cultura estadística mediante el uso de software libre mediante talleres, cursos, seminarios, etc.
 																					
