@@ -14,7 +14,7 @@ Entre los objetivos de la comunidad de usuarios de R en Ecuador se encuentran lo
 * Ser una plataforma para la divulgación de trabajos de usuarios de R.
 * Promocionar eventos de empresas o consultores que trabajen o capaciten en R.
 * Impulsar proyectos de datos con R que ayuden a la construcción de conocimiento.
-* Promover la cultura estadística mediante el uso de software libre mediante talleres, cursos, seminarios, etc.
+* Promover la cultura estadística mediante el uso de software libre.
 																					
 ## Equipo
 
@@ -28,17 +28,17 @@ Magister en Investigación Operativa con mención en Sistemas Logísticos y de T
 Actualmente ha terminando el Máster en Técnicas Estadística de la Universidad de La Coruña y es candidato al Doctorado Interuniversitario en Estadística e Investigación de Operaciones ofertado por las Universidades Gallegas Vigo, La Coruña y Santiago de Compostela.
 
 
-#### Cristian R. Benalcazar
+#### Cristian R. Benalcázar
 Especialista en Ciencia de datos de la Universidad Johns Hopkins.
-Especialista en analisis de datos para la toma de decisiones del Tecnologico de Monterrey.
-Especialista en NIIF de la Universidad Andina Simon Bolivar.
-Ingeniero en Ciencias Economicas y Financieras de la EPN.
-Licenciado en Economia y Gestion mencion: Macroeconomia Aplicada de la Universidad Jean Monnet - Saint-Etienne.
+Especialista en anáisis de datos para la toma de decisiones del Tecnológico de Monterrey.
+Especialista en NIIF de la Universidad Andina Simón Bolívar.
+Ingeniero en Ciencias Económicas y Financieras de la EPN.
+Licenciado en Economía y Gestión mencion: Macroeconomía Aplicada de la Universidad Jean Monnet - Saint-Etienne.
 Experto en Data Mining, Business Intelligence y BigData Analytics.
-Experto en automatización y reporteo dinamico de analisis estadisticos y econometricos.
-Experto en el desarrollo de aplicaciones de consulta, captura, control y visualizacion de resultados utilizando R, Rstudio. server, Shiny server, Postgres, MySql, Latex, marckdown, jekyll entre otros.
-Especialista de Riesgos en Contratacion Publica en el SERCOP.
-Becario en 2 ocasiones del Centro Latinoamericano de Formacion Interdisciplinaria CELFI para los cursos internacionales Trasporte Optimo y analisis de datos y la Escuela de Verano de Investigacion Operativa ELAVIO 2017.
+Experto en automatización y reporteo dinamico de análisis estadisticos y econometricos.
+Experto en el desarrollo de aplicaciones de consulta, captura, control y visualización de resultados utilizando R, Rstudio. server, Shiny server, Postgres, MySql, Latex, marckdown, jekyll entre otros.
+Especialista de Riesgos en Contratación Pública en el SERCOP.
+Becario en 2 ocasiones del Centro Latinoamericano de Formación Interdisciplinaria CELFI para los cursos internacionales Trasporte Óptimo y análisis de datos y la Escuela de Verano de Investigación Operativa ELAVIO 2017.
 Autodidacta y apasionado por los datos.
 
 
