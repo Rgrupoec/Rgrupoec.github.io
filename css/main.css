@@ -119,7 +119,11 @@ img {
 }
 
 /* color */
-.navbar-custom  .navbar-toggle {
+.navbar-custom .navbar-toggle .icon-bar {
+  background: #fafafa;
+}
+
+.navbar-custom .navbar-collapse {
   border-color: #294481;
 }
 
