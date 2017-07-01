@@ -1,14 +1,10 @@
 # --- Serving options --- #
-# url: "rgrupoec.github.io"
-# baseurl: ""
 title: R Users Group Ecuador
 description: Pagina oficial de R Users Group Ecuador
 
 # --- Navigation bar options --- #
 
 # Image to show in the navigation bar - image must be a square (width = height)
-# Remove this parameter if you don't want an image in the navbar
-#avatar: "/img/avatar-icon.png"#
 avatar: "/img/logop.png"
 
 # List of links in the navigation bar
@@ -30,7 +26,7 @@ navbar-links:
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: R Users Group
-  email: "crbdlc1@hotmail.com"
+  email: "info@rusersgroup.com"
   facebook: rusersgroup
   github: rusersgroup
   twitter: rusersgroup
