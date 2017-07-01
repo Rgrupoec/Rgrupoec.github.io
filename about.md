@@ -1,10 +1,6 @@
 ---
 title: ¿Quiénes somos?
 subtitle: Personas detrás de R Users Group - Ecuador
-comments: false
-noToc: true
-group: navigation
-published: true
 board-list:
   - name: Miguel A. Flores Sánchez
     img: /img/people/miguel.jpg
@@ -19,6 +15,7 @@ board-list:
     desc:  Analista de Estadísticas Económicas del INEC, Ingeniero Empresarial de la EPN, Especialista en estadística económica, Forma parte del Grupo de Expertos Gubernamentales en Estadísticas Manufactureras de la CAN, Capacitador de la Sociedad Ecuatoriana de Estadística en R, SPSS y Stata.
     linkedin: https://www.linkedin.com/in/andrés-peña-m-608a802a/
 ---
+
 
 <b>R Users Group - Ecuador<b> es una comunidad creada con el propósito de promover el uso del software estadístico R Project, además de fomentar la aplicación adecuada de las técnicas estadísticas.
 
