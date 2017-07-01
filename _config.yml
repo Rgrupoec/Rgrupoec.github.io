@@ -9,7 +9,7 @@ description: Pagina oficial de R Users Group Ecuador
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
 #avatar: "/img/avatar-icon.png"#
-avatar: "/img/background.png"
+avatar: "/img/logop.png"
 
 # List of links in the navigation bar
 navbar-links:
@@ -31,9 +31,9 @@ navbar-links:
 author:
   name: R Users Group
   email: "crbdlc1@hotmail.com"
-  facebook: crisben.crb
-  github: r-ec
-  twitter: Rgrupoec
+  facebook: rusersgroup
+  github: rusersgroup
+  twitter: rusersgroup
   linkedin: /groups/4308508/
   #stackoverflow: 
  
