@@ -79,7 +79,7 @@ defaults:
     scope:
       path: "" # all files
     values:
-      layout: "base"
+      layout: "single"
       show-avatar: true
 
 
