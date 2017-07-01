@@ -80,6 +80,8 @@ defaults:
       path: "" # all files
     values:
       layout: "base"
+      show-avatar: true
+
 
 
 
