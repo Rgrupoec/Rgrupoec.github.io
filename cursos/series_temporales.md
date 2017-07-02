@@ -3,8 +3,6 @@ layout: page
 title: Series temporales
 ---
 
-Series temporales
-
 ## OBJETIVOS Y COMPETENCIAS
 
 Se pretende modelizar el comportamiento de una serie de observaciones de una variable tomadas secuencialmente a lo largo del tiempo. Para ello se utilizarán modelos estadísticos paramétricos. Estos modelos nos permitirán comprender la dinámica de la serie, así como predecir sus futuros valores. La metodología utilizada será ilustrada a través de su aplicación a datos reales, para lo que se hará uso del paquete estadístico R. El manejo de dicho paquete en el contexto específico de las series de tiempo será aprendido a lo largo del curso.
