@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Publicaciones
+title: Noticias y Publicaciones
 subtitle: Temario de publicaciones
 published: true
 ---
-
-
 
 
 <ul class="tag-box inline">
