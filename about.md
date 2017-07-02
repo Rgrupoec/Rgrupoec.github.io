@@ -1,6 +1,7 @@
 ---
 title: ¿Quiénes somos?
 subtitle: Personas detrás de R Users Group - Ecuador
+published: true
 board-list:
   - name: Miguel A. Flores Sánchez
     img: /img/people/miguel.jpg
