@@ -1,4 +1,5 @@
 ---
+layout: page
 title: ¿Quiénes somos?
 subtitle: Personas detrás de R Users Group - Ecuador
 published: true
@@ -27,5 +28,3 @@ Entre los objetivos de la comunidad de usuarios de R en Ecuador se encuentran lo
 * Promover la cultura estadística mediante el uso de software libre.
 
 {% include list-circles.html items=page.board-list %}
-
-Este sitio ha sido desarrollado utilizando <b>R, marckdown y jekyll</b>.
