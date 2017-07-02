@@ -1,13 +1,13 @@
 ---
-title: Projects
-bigimg: /img/banners/devel.jpg
+layout: page
+title: Capacitación permanente
+bigimg: /img/banners/devel.png
 recon-list:
   - name: series_temporales
     desc: Collection of outbreak data.
-    github: http://github.com/reconhub/outbreaks
     url: http://rusersgroup.com/cursos/series_temporales
     website: http://rusersgroup.com/cursos/series_temporales
-    img: /img/projects/blue.png
+    img: /img/cursos/series_temporales.png
   - name: incidence
     desc: Computation, handling, visualisation and simple modelling of incidence.
     github: http://github.com/reconhub/incidence
