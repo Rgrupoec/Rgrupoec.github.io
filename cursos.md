@@ -18,11 +18,6 @@ recon-list:
     url: http://rusersgroup.com/cursos/estadistica_aplicada
     website: http://rusersgroup.com/cursos/estadistica_aplicada
     img: /img/cursos/estadistica_aplicada.png
-  - name: Modelos de probabilidad
-    desc: Probabilidad y estadística matemática   
-    url: http://rusersgroup.com/cursos/modelos_probabilidad
-    website: http://rusersgroup.com/cursos/modelos_probabilidad
-    img: /img/cursos/modelos_probabilidad.png 
   - name: Muestreo
     desc: Diseño y ejecución de encuestas aplicando las técnicas de muestreo probabilístico
     url: http://rusersgroup.com/cursos/muestreo
