@@ -1,7 +1,7 @@
 ---
 layout: 		default
 title:  		Cursos content
-category:		cursos
+cursos:			cursos
 comments:		false
 noToc:			true
 ---
@@ -9,7 +9,7 @@ noToc:			true
 <div class="post">
 	<h1 class="post-title">
 		<a href="{{ site.baseurl }}{{ post.url }}">
-			Category: {{ page.categories="cursos" }}
+			Category: {{ page.cursos }}
 		</a>
 	</h1>
 	{% for post in paginator.posts %}
