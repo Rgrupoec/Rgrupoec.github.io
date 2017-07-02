@@ -2,6 +2,9 @@
 title: Web oficial de R Users Group - Ecuador en línea
 subtitle: R Users Group - Ecuador finalmente tiene su página web 
 bigimg: /img/banners/big_epi_image.jpg
+layout: 		default
+comments:		false
+noToc:			true
 ---
 
 R Users Group - Ecuador presenta su web oficial.
