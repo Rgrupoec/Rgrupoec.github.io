@@ -1,16 +1,7 @@
 ---
-layout: post
+layout: page
 title: Análisis Exploratorio de Datos
-categories: capacitacion
-tags: 
-  - analisis
-  - curso
-comments: true
-published: true
 ---
-
-
-Análisis Exploratorio de Datos
 
 ## OBJETIVOS Y COMPETENCIAS
 
