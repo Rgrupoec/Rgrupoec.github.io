@@ -1,36 +1,24 @@
 ---
-layout: page
-title: Capacitación permanente
-subtitle: Temario de capacitaciones
-published: true
+title: Projects
+bigimg: /img/banners/devel.jpg
+recon-list:
+  - name: series_temporales
+    desc: Collection of outbreak data.
+    github: http://github.com/reconhub/outbreaks
+    url: http://rusersgroup.com/cursos/series_temporales
+    website: http://rusersgroup.com/cursos/series_temporales
+    img: /img/projects/blue.png
+  - name: incidence
+    desc: Computation, handling, visualisation and simple modelling of incidence.
+    github: http://github.com/reconhub/incidence
+    url: http://reconhub.github.io/incidence
+    website: http://reconhub.github.io/incidence
+    img: http://raw.githubusercontent.com/reconhub/incidence/master/logo/logo.png
 ---
 
-<ul class="tag-box inline">
-{% assign tags_list = site.cursos %}  
-  {% if tags_list.first[0] == null %}
-    {% for tag in tags_list %} 
-      <li><a href="#{{ tag }}">{{ tag | capitalize }} <span>{{ site.tags[tag].size }}</span></a></li>
-    {% endfor %}
-  {% else %}
-    {% for tag in tags_list %} 
-      <li><a href="#{{ tag[0] }}">{{ tag[0] | capitalize }} <span>{{ tag[1].size }}</span></a></li>
-    {% endfor %}
-  {% endif %}
-{% assign tags_list = nil %}
-</ul>
+<br>
 
-{% for tag in site.categories %} 
-  <h2 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h2>
-  <ul class="post-list">
-    {% assign pages_list = tag[1] %}  
-    {% for post in pages_list %}
-      {% if post.title != null %}
-      {% if group == null or group == post.group %}
-      <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
-      {% endif %}
-      {% endif %}
-    {% endfor %}
-    {% assign pages_list = nil %}
-    {% assign group = nil %}
-  </ul>
-{% endfor %}
+## Released packages
+These packages have been developed following RECON's standards, are fully functional, documented and tested, and have been released on CRAN.
+
+{% include list-circles.html items=page.recon-list %}
