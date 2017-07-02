@@ -14,7 +14,6 @@ recon-list:
   - name: Estadística Aplicada
     desc: fundamentos de la Inferencia Estadística
     url: http://rusersgroup.com/cursos/estadistica_aplicada
-    website: http://rusersgroup.com/cursos/estadistica_aplicada
     img: /img/cursos/estadistica_aplicada.png
   - name: Muestreo
     desc: Diseño y ejecución de encuestas aplicando las técnicas de muestreo probabilístico
