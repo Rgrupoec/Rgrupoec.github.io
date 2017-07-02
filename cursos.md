@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Capacitación permanente
-bigimg: /img/banners/devel.png
+bigimg: /img/banner/devel.png
 recon-list:
   - name: series_temporales
     desc: Collection of outbreak data.
