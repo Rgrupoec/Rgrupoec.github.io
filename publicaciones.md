@@ -3,7 +3,7 @@ layout: page
 title: Noticias y Publicaciones
 subtitle: Temario de publicaciones
 published: true
-comments> true
+comments: true
 ---
 
 
