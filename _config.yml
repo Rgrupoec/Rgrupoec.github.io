@@ -15,7 +15,6 @@ navbar-links:
   Servicios:
     - Capacitacion permanente: "cursos"
     - Consultoria: "consultoria"
-    - Eventos: "eventos"
   Nosotros:
     - Quienes somos?: "about"
     - Contacto: "contact"
