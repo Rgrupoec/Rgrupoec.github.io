@@ -9,7 +9,6 @@ avatar: "/img/logop.png"
 
 # List of links in the navigation bar
 navbar-links:
-  Noticias: "blog"
   Publicaciones:
     - Temario: "publicaciones"
     - Etiquetas: "tags"
