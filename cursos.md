@@ -18,7 +18,6 @@ recon-list:
 
 <br>
 
-## Released packages
-These packages have been developed following RECON's standards, are fully functional, documented and tested, and have been released on CRAN.
+## Capacitaciones
 
 {% include list-circles.html items=page.recon-list %}
