@@ -1,15 +1,7 @@
 ---
-layout: post
+layout: page
 title: Series temporales
-categories: capacitacion
-tags: 
-  - análisis
-  - series
-  - curso
-comments: true
-published: true
 ---
-
 
 Series temporales
 
