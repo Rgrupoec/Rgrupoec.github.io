@@ -24,7 +24,7 @@ recon-list:
     website: http://rusersgroup.com/cursos/modelos_probabilidad
     img: /img/cursos/modelos_probabilidad.png 
   - name: Muestreo
-    desc: Diseñar y realizar encuestas aplicando las técnicas de muestreo probabilístico
+    desc: Diseño y ejecución de encuestas aplicando las técnicas de muestreo probabilístico
     url: http://rusersgroup.com/cursos/muestreo
     website: http://rusersgroup.com/cursos/muestreo
     img: /img/cursos/muestreo.png
@@ -44,7 +44,7 @@ recon-list:
     website: http://rusersgroup.com/cursos/modelos_regresion
     img: /img/cursos/modelos_regresion.png 
   - name: Series temporales
-    desc: Mdelizar el comportamiento de una serie de observaciones de una variable tomadas secuencialmente a lo largo del tiempo.
+    desc: Modelos de comportamiento de una serie de observaciones de una variable tomadas secuencialmente a lo largo del tiempo.
     url: http://rusersgroup.com/cursos/series_temporales
     website: http://rusersgroup.com/cursos/series_temporales
     img: /img/cursos/series_temporales.png
