@@ -1,17 +1,7 @@
 ---
-layout: post
+layout: page
 title: Estadística Aplicada
-categories: capacitacion
-tags: 
-  - análisis
-  - estadística
-  - curso
-comments: true
-published: true
 ---
-
-
-Estadística Aplicada
 
 ## OBJETIVOS Y COMPETENCIAS
 
