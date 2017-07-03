@@ -31,4 +31,29 @@ boxplot(pressure)</code></pre>
 
 Puedes reproducirlo ejecutando:
 
-`c`
+`---
+title: "R en marckdown"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Documentos GitHub
+
+Este es un ejemplo básico del uso de R y Markdown para generar doumentos HTML, Word y PDF y publicarlos en GitHub. 
+
+## Código R
+
+```{r cars}
+summary(cars)
+```
+
+## Plot
+
+```{r pressure}
+par(mfrow=c(1,2))
+plot(pressure)
+boxplot(pressure)
+````
