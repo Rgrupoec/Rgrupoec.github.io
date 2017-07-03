@@ -9,7 +9,6 @@ avatar: "/img/logop.png"
 
 # List of links in the navigation bar
 navbar-links:
-  Noticias: "news"
   Publicaciones:
     - Temario: "publicaciones"
     - Etiquetas: "tags"
@@ -42,6 +41,14 @@ footer-links-active:
   github: true
   linkedin: true
   stackoverflow: false
+  
+  # Select which share links to show in posts
+share-links-active:
+  twitter: true
+  facebook: true
+  google: true
+  linkedin: true
+
 
 # Output options (more information on Jekyll's site)
 timezone: "America/Vancouver"
@@ -70,6 +77,12 @@ defaults:
       comments: true
       social-share: true
       share: true
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "page"
+      show-avatar: true
 
 
 
