@@ -63,6 +63,7 @@ defaults:
       layout: "post"
       comments: true
       social-share: true
+      share: true
         -
     scope:
       path: "" # all files
@@ -71,6 +72,7 @@ defaults:
       show-avatar: true
       comments: true
       social-share: true
+      share: true
 
 
 # Exclude these files from production site
