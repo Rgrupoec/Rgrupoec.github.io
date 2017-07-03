@@ -1,5 +1,5 @@
 ---
-title: R y marckdown
+title: R y Marckdown
 layout: 		post
 comments:		false
 tags: 
