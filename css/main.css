@@ -195,7 +195,7 @@ img {
 }
 
 .navbar-custom  .navbar-toggle {
-  border-color: #079bba;
+  border-color: #246abf;
 }
 
 .navbar-custom  .navbar-toggle:hover,
@@ -208,7 +208,7 @@ img {
 }
 
 .navbar-custom .navbar-collapse {
-  border-color: #294481;
+  border-color: #246abf;
 }
 
 /* Multi-level navigation links */
@@ -233,7 +233,7 @@ img {
 }
 
 .navbar-custom .nav li.show-children a.navlinks-parent {
-  background: #294481;
+  background: #246abf;
 }
 
 .navbar-custom .nav .navlinks-container:hover {
