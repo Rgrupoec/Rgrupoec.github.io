@@ -9,15 +9,14 @@ avatar: "/img/logop.png"
 
 # List of links in the navigation bar
 navbar-links:
-  Noticias: "noticias"
   Publicaciones:
     - Temario: "publicaciones"
     - Etiquetas: "tags"
   Servicios:
-    - Capacitacion permanente: "cursos"
-    - Consultoria: "consultoria"
+    - Capacitación permanente: "cursos"
+    - Consultoría: "consultoria"
   Nosotros:
-    - Quienes somos?: "about"
+    - ¿Quiénes somos?: "about"
     - Contacto: "contact"
   
 # --- Footer options --- #
@@ -56,7 +55,7 @@ kramdown:
 comments:
   provider: "disqus"
   disqus:
-    shortname: "rusersgroup-ec"
+    shortname: "rusersgroup-com"
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
