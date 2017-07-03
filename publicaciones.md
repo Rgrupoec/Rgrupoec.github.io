@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Noticias y Publicaciones
+title: Publicaciones
 subtitle: Temario de publicaciones
 published: true
 comments: true
