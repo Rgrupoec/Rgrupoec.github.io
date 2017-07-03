@@ -29,7 +29,7 @@ author:
   facebook: rusersgroup
   github: rusersgroup
   twitter: rusersgroup
-  linkedin: linkedin.com/groups/4308508
+  linkedin: groups/4308508
   #stackoverflow: 
  
 # Select which links to show in the footer
@@ -39,7 +39,7 @@ footer-links-active:
   email: true
   twitter: true
   github: true
-  linkedin: true
+  linkedin: false
   stackoverflow: false
   
   # Select which share links to show in posts
@@ -47,7 +47,7 @@ share-links-active:
   twitter: true
   facebook: true
   google: true
-  linkedin: true
+  linkedin: false
 
 
 # Output options (more information on Jekyll's site)
