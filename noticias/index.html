@@ -1,7 +1,7 @@
 ---
 layout: 		default
 title:  		Noticias content
-category:		noticias
+category_noticias:	noticias
 comments:		true
 noToc:			true
 ---
@@ -9,7 +9,7 @@ noToc:			true
 <div class="post">
 	<h1 class="post-title">
 		<a href="{{ site.baseurl }}{{ post.url }}">
-			Category: {{ page.category }}
+			Category: {{ page.category_noticias }}
 		</a>
 	</h1>
 	{% for post in paginator.posts %}
