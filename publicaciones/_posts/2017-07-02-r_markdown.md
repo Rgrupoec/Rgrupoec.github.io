@@ -1,5 +1,5 @@
 ---
-title: R y Marckdown
+title: R y Markdown
 layout: 		post
 comments:		false
 tags: 
@@ -7,7 +7,7 @@ tags:
 noToc:			true
 ---
 
-<h2>Documentos Marckdown generados con R</h2>
+<h2>Documentos Markdown generados con R</h2>
 <p>Este es un ejemplo básico del uso de R y Markdown para generar doumentos HTML, Word y PDF.</p>
 <div id="codigo-r" class="section level2">
 <h2>Código R</h2>
@@ -30,7 +30,7 @@ boxplot(pressure)</code></pre>
 
 Código para reproducir el ejemplo:
 
-[R_marckdown_1.Rmd](https://raw.githubusercontent.com/Rusersgroup/R-basico/master/R_marckdown_1.Rmd)
+[R_marckdown_1.Rmd](https://raw.githubusercontent.com/Rusersgroup/R-basico/master/R_markdown_1.Rmd)
 
 > **Nota:**
 
