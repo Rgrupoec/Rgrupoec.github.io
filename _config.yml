@@ -53,6 +53,11 @@ permalink: /:year-:month-:day-:title
 kramdown:
   input: GFM
 
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "rusersgroup-ec"
+
 # Default YAML values (more information on Jekyll's site)
 defaults:
   -
@@ -73,6 +78,7 @@ defaults:
       comments: true
       social-share: true
       share: true
+
 
 
 # Exclude these files from production site
