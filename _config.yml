@@ -64,15 +64,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "post"
-      comments: true
-      social-share: true
-      share: true
-        -
-    scope:
-      path: "" # all files
-    values:
-      layout: "page"
+      layout: "default"
       show-avatar: true
       comments: true
       social-share: true
