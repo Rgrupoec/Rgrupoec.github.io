@@ -1,5 +1,5 @@
 ---
-title: R en marckdown
+title: R y marckdown
 layout: 		post
 comments:		false
 tags: 
