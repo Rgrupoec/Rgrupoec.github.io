@@ -12,11 +12,6 @@
 
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav navbar-right">
-        <li>
-          <a href="{{ site.url }}" class="" title="Home">
-            <span class="fa fa-home fa-lg"></span>
-          </a>
-        </li>
       {% for link in site.navbar-links %}
         {% if link[1].first %}
           <li class="navlinks-container">
@@ -35,12 +30,6 @@
           </li>
         {% endif %}
         {% endfor %}
-        <li>
-          <a href="/search" class="nav-search-link" title="Search">
-            <span class="fa fa-search fa-lg nav-search-icon"></span>
-          <span class="nav-search-text">Search</span>
-          </a>
-        </li>
       </ul>
     </div>
 
