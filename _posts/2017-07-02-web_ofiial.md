@@ -1,6 +1,6 @@
 ---
 title: Web oficial
-layout: 		page
+layout: 		post
 comments:		false
 tags: 
   - rusersgroup
