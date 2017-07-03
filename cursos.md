@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Capacitación permanente
-bigimg: /img/banner/devel.png
 recon-list:
 - name: Análisis exploratorio de datos
     desc: Conceptos, técnicas numéricas y gráficas, esenciales para el descubrimiento y entendimiento de las estructuras y relaciones contenidas en un conjunto de datos.
