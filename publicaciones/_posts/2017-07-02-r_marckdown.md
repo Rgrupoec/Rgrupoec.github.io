@@ -8,8 +8,7 @@ noToc:			true
 ---
 
 <h2>Documentos GitHub</h2>
-<p>Este es un ejemplo básico del uso de R y Markdown para generar doumentos HTML, Word y PDF y publicarlos en GitHub.</p>
-</div>
+<p>Este es un ejemplo básico del uso de R y Markdown para generar doumentos HTML, Word y PDF.</p>
 <div id="codigo-r" class="section level2">
 <h2>Código R</h2>
 <pre class="r"><code>summary(cars)</code></pre>
@@ -31,4 +30,4 @@ boxplot(pressure)</code></pre>
 
 Código para reproducir el ejemplo:
 
-[R_marckdown_1.Rmd](https://github.com/Rusersgroup/R-basico/blob/master/R_marckdown_1.Rmd)
+[R_marckdown_1.Rmd](https://raw.githubusercontent.com/Rusersgroup/R-basico/master/R_marckdown_1.Rmd)
