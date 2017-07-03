@@ -1,8 +1,10 @@
 ---
-title: "Untitled"
-author: "CRB"
-date: "2 de julio de 2017"
-output: html_document
+title: R en marckdown
+layout: 		post
+comments:		false
+tags: 
+  - rusersgroup
+noToc:			true
 ---
 
 ```{r setup, include=FALSE}
