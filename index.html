@@ -60,7 +60,7 @@ share: true
       {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
       {% assign excerpt_word_count = post.excerpt | number_of_words %}
       {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
-        <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Post&nbsp;completo]</a>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
       {% endif %}
     </div>
 
@@ -81,65 +81,6 @@ share: true
   {% endfor %}
 </div>
 
-<!-- twitter -->
-<div class="post-entry">
-        <h1 class="post-title">News</h1>
-	<div style="text-align:center;">
-	<a class="twitter-timeline" href="https://twitter.com/rusersgroup">Tweets by R Users Group - Ecuador</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        </div>
-</div>
-
-<!-- social revisar -->
-<div class="post-entry">
-	{% if paginator.page == 1 %}
-	<!-- FACEBOOK -->
-	<h1 class="post-title">Follow R Uesrs Group - Ecuador</h1>
-	<div style="text-align:center;">
-	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-		var js, fjs = d.getElementsByTagName(s)[0];
-		if (d.getElementById(id)) return;
-		js = d.createElement(s); js.id = id;
-		js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1&appId=244629032269611";
-		fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
-	<div class="fb-like-box" data-href="http://www.facebook.com/rusersgroup/" data-width="600" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
-	</div>
-	<!-- TWITTER -->
-	<div style="text-align:center;"><br />
-	<a href="https://twitter.com/rusersgroup" class="twitter-follow-button" data-show-count="true" data-lang="en" data-size="large">Follow @Rgrupoec</a>
-	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-	</div>
-	{% endif %}
-</div>
-
-<div class="posts-list">
-  {% for post in paginator.posts %}
-  {% if post.categories contains 'releases' %}
-  <article class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
-	
-	  {% if post.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ post.subtitle }}
-	  </h3>
-	  {% endif %}  
-    </a>
-    <p class="post-meta">
-      Posted on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
-  
-    <div class="post-entry">
-      {{ post.content | truncatewords: 50 | strip_html}}
-	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
-    </div>
-  
-   </article>
-  {% endif %} 
-  {% endfor %}
-</div>
 {% if paginator.total_pages > 1 %}
 <ul class="pager main-pager">
   {% if paginator.previous_page %}
