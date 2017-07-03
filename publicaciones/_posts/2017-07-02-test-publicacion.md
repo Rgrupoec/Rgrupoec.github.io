@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Test publicación
-categories: test
 tags: 
   - test
 comments: true
