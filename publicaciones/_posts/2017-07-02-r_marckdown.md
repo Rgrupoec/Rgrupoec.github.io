@@ -7,7 +7,7 @@ tags:
 noToc:			true
 ---
 
-<h2>Documentos GitHub</h2>
+<h2>Documentos Marckdown generados con R</h2>
 <p>Este es un ejemplo básico del uso de R y Markdown para generar doumentos HTML, Word y PDF.</p>
 <div id="codigo-r" class="section level2">
 <h2>Código R</h2>
