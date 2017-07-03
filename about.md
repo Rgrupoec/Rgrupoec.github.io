@@ -18,7 +18,7 @@ board-list:
     url: https://www.linkedin.com/in/andrés-peña-m-608a802a/
   - name: Ana Julia Escobar
     img: /img/people/ana.jpg
-    desc: Ingeniera Matemática de la EPN, Científica de datos Jr, Especialista en Investigación de operaciones.
+    desc: Ingeniera Matemática de la EPN, Científica de datos Jr, Especialista en Investigación de Operaciones.
     url: https://www.linkedin.com/in/anyescobar/
 ---
 
