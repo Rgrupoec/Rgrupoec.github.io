@@ -100,7 +100,7 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background: #0776b7;
+  background: #246abf;
   border-bottom: 1px solid #294481;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -200,11 +200,11 @@ img {
 
 .navbar-custom  .navbar-toggle:hover,
 .navbar-custom  .navbar-toggle:focus {
-  background: #0776b7;
+  background: #246abf;
 }
 
 .navbar-custom .navbar-toggle .icon-bar {
-  background: #0776b7;
+  background: #246abf;
 }
 
 .navbar-custom .navbar-collapse {
@@ -225,7 +225,7 @@ img {
 }
 .navbar-custom .nav li a.navlinks-parent:hover,
 .navbar-custom .nav li a.navlinks-parent:focus  {
-  color: #0776b7;
+  color: #246abf;
 }
 .navbar-custom .nav li .navlinks-children a:hover,
 .navbar-custom .nav li .navlinks-children a:focus  {
@@ -237,7 +237,7 @@ img {
 }
 
 .navbar-custom .nav .navlinks-container:hover {
-  background: #0776b7;
+  background: #246abf;
 }
 
 .navbar-custom .nav li a.navlinks-parent:hover,
@@ -284,7 +284,7 @@ img {
 footer {
   padding: 30px 0;
   background: #FAFAFA;
-  border-top: 1px #0776b7 solid;
+  border-top: 1px #246abf solid;
   margin-top: 50px;
   font-size: 14px;
 }
