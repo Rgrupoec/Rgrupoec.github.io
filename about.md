@@ -16,7 +16,7 @@ board-list:
     img: /img/people/andres.jpg
     desc:  Analista de Estadísticas Económicas del INEC, Ingeniero Empresarial de la EPN, Especialista en estadística económica, Forma parte del Grupo de Expertos Gubernamentales en Estadísticas Manufactureras de la CAN, Capacitador de la Sociedad Ecuatoriana de Estadística en R, SPSS y Stata.
     url: https://www.linkedin.com/in/andrés-peña-m-608a802a/
-- name: Ana Julia Escobar
+  - name: Ana Julia Escobar
     img: /img/people/ana.jpg
     desc: Ingeniera Matemática de la EPN, Científica de datos Jr, Especialista en Investigación de operaciones.
     url: https://www.linkedin.com/in/anyescobar/
