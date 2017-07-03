@@ -2,6 +2,8 @@
 title: Web oficial de R Users Group - Ecuador en línea
 layout: 		page
 comments:		false
+tags: 
+  - rusersgroup
 noToc:			true
 ---
 
