@@ -1,5 +1,5 @@
 ---
-title: Web oficial de R Users Group - Ecuador en línea
+title: Web oficial de R Users Group - Ecuador
 layout: 		page
 comments:		false
 tags: 
