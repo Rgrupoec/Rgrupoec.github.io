@@ -1,8 +1,10 @@
 ---
 layout: page
 title: Capacitación permanente
+header:
+  image: /img/banner/devel.png
 recon-list:
-  - name: Análisis exploratorio de datos
+- name: Análisis exploratorio de datos
     desc: Conceptos, técnicas numéricas y gráficas, esenciales para el descubrimiento y entendimiento de las estructuras y relaciones contenidas en un conjunto de datos.
     url: http://rusersgroup.com/cursos/analisis_exploratorio
     img: /img/cursos/analisis_exploratorio.png    
@@ -36,6 +38,4 @@ recon-list:
     img: /img/cursos/series_temporales.png
 ---
 
-header:
-  overlay_image: /img/banner/devel.png
 {% include list-circles.html items=page.recon-list %}
