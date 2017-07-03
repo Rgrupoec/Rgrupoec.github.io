@@ -30,7 +30,7 @@ boxplot(pressure)</code></pre>
 
 Código para reproducir el ejemplo:
 
-[R_marckdown_1.Rmd](https://raw.githubusercontent.com/Rusersgroup/R-basico/master/R_markdown_1.Rmd)
+[R_markdown_1.Rmd](https://raw.githubusercontent.com/Rusersgroup/R-basico/master/R_markdown_1.Rmd)
 
 > **Nota:**
 
