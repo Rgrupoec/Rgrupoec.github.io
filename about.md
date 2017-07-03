@@ -6,7 +6,7 @@ published: true
 board-list:
   - name: Miguel A. Flores Sánchez
     img: /img/people/miguel.jpg
-    desc: Fundador de la comunidad R Users Group - Ecuador, Ph.D (c) Estadística e Investigación de Operaciones, Docnente e Investigador en el Centro de Modelamiento Matemático de la EPN, Capacitador de la Sociedad Ecuatoriana de Estadística en R.
+    desc: Fundador de la comunidad R Users Group - Ecuador, Ph.D (c) Estadística e Investigación de Operaciones, Docente e Investigador del Departamento de Matemática de la EPN, Capacitador de la Sociedad Ecuatoriana de Estadística en R.
     url: https://www.linkedin.com/in/miguel-flores-sanchez/
   - name: Cristian Benalcázar
     img: /img/people/crb.jpg
