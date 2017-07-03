@@ -32,4 +32,9 @@ Código para reproducir el ejemplo:
 
 [R_marckdown_1.Rmd](https://raw.githubusercontent.com/Rusersgroup/R-basico/master/R_marckdown_1.Rmd)
 
-**Nota: debes usar el paquete `markdown` y guardar el código en formato `.Rmd`.**
+> **Nota:**
+
+> - **Debes usar el paquete `markdown` y guardar el código en formato `.Rmd`.**
+> - **Entonces podrás ver estas opciones en Rstudio:**
+
+![](https://github.com/Rgrupoec/Rgrupoec.github.io/blob/master/img/publicaciones/2017-07-02-r-marckdown.png?raw=true)
