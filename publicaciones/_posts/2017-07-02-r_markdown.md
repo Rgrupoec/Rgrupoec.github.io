@@ -1,5 +1,5 @@
 ---
-title: R y Markdown
+title: R y Markdown - básico
 layout: 		post
 comments:		false
 tags: 
