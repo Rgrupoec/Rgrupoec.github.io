@@ -1,6 +1,6 @@
 ---
-title: R y Markdown - básico
 layout: 		post
+title: R y Markdown - básico
 comments:		true
 tags: 
   - rusersgroup
