@@ -12,9 +12,9 @@ board-list:
     img: /img/people/crb.jpg
     desc: Ingeniero en Ciencias Económicas y Financieras de la EPN, Especialista en Ciencia de datos de la Universidad Johns Hopkins, Experto en automatización de modelos estadísticos y econométricos, Experto en el desarrollo de aplicaciones de consulta, captura, control y visualización utilizando R, Rstudio server, Shiny server.    
     url: https://www.linkedin.com/in/cristian-benalcázar-62b8b93b/
-  - name: Andrés Peña Montalvo
+  - name: Andrés Peña M.
     img: /img/people/andres.jpg
-    desc:  Analista de Estadísticas Económicas del INEC, Ingeniero Empresarial de la EPN, Especialista en estadística económica, Forma parte del Grupo de Expertos Gubernamentales en Estadísticas Manufactureras de la CAN, Capacitador de la Sociedad Ecuatoriana de Estadística en R, SPSS y Stata.
+    desc:  Analista de Estadísticas Económicas del INEC, Ingeniero Empresarial de la EPN, Especialista en estadística económica-social, parte del Grupo de Expertos Gubernamentales en Estadísticas Manufactureras de la CAN, Capacitador de la Sociedad Ecuatoriana de Estadística en R, SPSS y Stata.
     url: https://www.linkedin.com/in/andrés-peña-m-608a802a/
   - name: Ana Julia Escobar
     img: /img/people/ana.jpg
