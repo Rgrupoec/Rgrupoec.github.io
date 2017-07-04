@@ -3,7 +3,7 @@ layout: page
 title: Consultoria
 subtitle: Consultorias
 published: true
-comments: true
+comments: false
 ---
 <a name="top"></a>
 
