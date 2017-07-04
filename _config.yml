@@ -2,8 +2,16 @@
 title: R Users Group Ecuador
 description: Pagina oficial de R Users Group Ecuador
 
-# --- Navigation bar options --- #
+# --- Outputting options --- #
+# More information can be found on Jekyll's site
+timezone: "America/Vancouver"
+markdown: kramdown
+highlighter: rouge
+permalink: /blog/:title/
+paginate: 10
+paginate_path: "/page:num/"
 
+# --- Navigation bar options --- #
 # Image to show in the navigation bar - image must be a square (width = height)
 avatar: "/img/logop.png"
 
@@ -29,7 +37,7 @@ author:
   facebook: rusersgroup
   github: rusersgroup
   twitter: rusersgroup
-  linkedin: groups/4308508
+  linkedin: "groups/4308508"
   #stackoverflow: 
  
 # Select which links to show in the footer
@@ -39,7 +47,7 @@ footer-links-active:
   email: true
   twitter: true
   github: true
-  linkedin: false
+  linkedin: true
   stackoverflow: false
   
   # Select which share links to show in posts
@@ -47,23 +55,7 @@ share-links-active:
   twitter: true
   facebook: true
   google: true
-  linkedin: false
-
-
-# Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
-markdown: kramdown
-highlighter: rouge
-permalink: /:year-:month-:day-:title
-#paginate: 5
-
-kramdown:
-  input: GFM
-
-comments:
-  provider: "disqus"
-  disqus:
-    shortname: "rusersgroup-com"
+  linkedin: true
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
