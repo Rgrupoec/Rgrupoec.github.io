@@ -47,7 +47,7 @@ footer-links-active:
   email: true
   twitter: true
   github: true
-  linkedin: true
+  linkedin: false
   stackoverflow: false
   
   # Select which share links to show in posts
@@ -55,7 +55,7 @@ share-links-active:
   twitter: true
   facebook: true
   google: true
-  linkedin: true
+  linkedin: false
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
