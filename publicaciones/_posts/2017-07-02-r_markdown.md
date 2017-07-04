@@ -38,11 +38,3 @@ Código para reproducir el ejemplo:
 > - **Entonces podrás ver estas opciones en Rstudio:**
 
 ![](https://github.com/Rgrupoec/Rgrupoec.github.io/blob/master/img/publicaciones/2017-07-02-r-markdown.png?raw=true)
-
-
-> **Nota:**
-
-> - **Esto es únicamente un ejemplo básico, ¿quieres algo más avanzado?**
-> - **[Ejemplo aplicación shiny](https://crbdlc.shinyapps.io/test/)**
-
-En futuras publicaciones abordaremos esto.
