@@ -1,7 +1,7 @@
 ---
-title: Web oficial
 layout: 		post
-comments:		false
+title: Web oficial
+comments:		tre
 tags: 
   - rusersgroup
 noToc:			true
