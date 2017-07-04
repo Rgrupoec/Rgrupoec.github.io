@@ -1,7 +1,7 @@
 ---
 title: R y Markdown - básico
 layout: 		post
-comments:		false
+comments:		true
 tags: 
   - rusersgroup
 noToc:			true
