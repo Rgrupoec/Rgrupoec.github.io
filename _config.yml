@@ -57,7 +57,7 @@ share-links-active:
   google: true
   linkedin: false
 
-disqus: "rusersgroup-site"
+disqus: "rusersgroup-com"
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
