@@ -31,6 +31,6 @@ Entre los objetivos de la comunidad de usuarios de R en Ecuador se encuentran lo
 * Impulsar proyectos de datos con R que ayuden a la construcción de conocimiento.
 * Promover la cultura estadística mediante el uso de software libre.
 
-## Directivos
+## Directorio
 
 {% include list-circles.html items=page.board-list %}
