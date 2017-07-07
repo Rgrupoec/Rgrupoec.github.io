@@ -49,7 +49,9 @@ Aplicaciones
 
 > **Permite realziar análisis en tiempo real.**
 
-> **Obiamente puedes utilizar servicios soap, rest, etc., etc. y generar tareas automáticas o desarrollar aplicaciones con cloud computing con AWS, AZURE, Google Platform o usar tu propio servidor.**
+> **Obviamente puedes utilizar servicios soap, rest, etc., etc. y generar tareas automáticas o desarrollar aplicaciones con cloud computing con AWS, AZURE, Google Platform o usar tu propio servidor.**
+
+![](/img/publicaciones/2017-07-07-wordcloud.png.png)
 
 Y bueno, se nos deben escapar muchas mas opciones, esperamos que con este pequeño resumen te unas a nuestra comunidad.
 
