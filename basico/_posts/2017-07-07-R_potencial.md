@@ -30,31 +30,32 @@ R es un lenguaje de programación que está en constante evolución y del que se
 
 Aplicaciones
 ===================
+<br>
+> R funciona con cualquier tipo de archivo, es muy flexible, puede trabajar con datos procedentes de todo tipo de archivos: txt, csv, prm, JSON, xls, xlsx, dta, sav, mtp, png, jpeg, mp3, mp4, etc., etc., si, así es, imágenes, audio, video, etc., etc., puedes analizar imágenes, sonidos, videos, etc., etc.
 
-> **R funciona con cualquier tipo de archivo, es muy flexible, puede trabajar con datos procedentes de todo tipo de archivos: txt, csv, prm, JSON, xls, xlsx, dta, sav, mtp, png, jpeg, mp3, mp4, etc., etc., si, así es, imágenes, audio, video, etc., etc., puedes analizar imágenes, sonidos, videos, etc., etc.**
+> Permite realizar análisis de estadística descriptiva, inferencial, paramétrica, no paramétrica, Bayesiana, univariante, multivariante, funcional, etc.
 
-> **Permite realizar análisis de estadística descriptiva, inferencial, paramétrica, no paramétrica, Bayesiana, univariante, multivariante, funcional, etc.**
+> Permite comprimir y organizar la información en sus formatos .rda o .Rdata.
 
-> **Permite comprimir y organizar la información en sus formatos .rda o .Rdata.**
+> Permite integración con bases de datos relacionales Postgres, MySql,  Oracle, etc., etc. y bases de datos no relacionales CouchDB, MongoDB, etc., etc.
 
-> **Permite integración con bases de datos relacionales Postgres, MySql,  Oracle, etc., etc. y bases de datos no relacionales CouchDB, MongoDB, etc., etc.**
+> Permite integración con SPSS Modeler, Tableau, Qlik Sense, ArcGIS, SAP, SAS, etc., etc.
 
-> **Permite integración con SPSS Modeler, Tableau, Qlik Sense, ArcGIS, SAP, SAS, etc., etc.**
+> La escalabilidad es un elemento clave, así que también permite integración con Hadoop, Spark, Elasticsearch, Kibana, es decir BIGDATA.
 
-> **La escalabilidad es un elemento clave, así que también permite integración con Hadoop, Spark, Elasticsearch, Kibana, es decir BIGDATA.**
+> Permite el desarrollo de publicaciones, libros, aplicaciones, dashboards y presentaciones con shiny, shinydashboard, flexdashboard, slidify, rpresenter, markdown, bookdown, etc., etc.
 
-> **Permite el desarrollo de publicaciones, libros, aplicaciones, dashboards y presentaciones con shiny, shinydashboard, flexdashboard, slidify, rpresenter, markdown, bookdown, etc., etc.**
+> Permite su uso con varios IDES como RStudio, RStudio Server, Microsoft R Server, VIM, Eclipse, Emacs Speaks Statistics.
 
-> **Permite su uso con varios IDES como RStudio, RStudio Server, Microsoft R Server, VIM, Eclipse, Emacs Speaks Statistics.**
+> Permite webscraping e integración con redes sociales.
 
-> **Permite webscraping e integración con redes sociales.**
+> Permite realizar análisis en tiempo real.
 
-> **Permite realizar análisis en tiempo real.**
-
-> **Obviamente puedes utilizar servicios soap, rest, etc., etc. y generar tareas automáticas o desarrollar aplicaciones con cloud computing con AWS, AZURE, Google Platform o usar tu propio servidor.**
+> Obviamente puedes utilizar servicios soap, rest, etc., etc. y generar tareas automáticas o desarrollar aplicaciones con cloud computing con AWS, AZURE, Google Platform o usar tu propio servidor.
 
 ![](/img/publicaciones/2017-07-07-wordcloud.png.png)
 
-Y bueno, se nos deben escapar muchas opciones, esperamos que con este pequeño resumen te sumes a la comunidad de usuarios de R.
+Y bueno, se nos deben escapar muchas opciones, pero esperamos que con este resumen muy breve se genere una mayor curiosidad en tí y te sumes a la comunidad de usuarios de R.
 
 > **Si estas interesado en aplicar al menos uno de los temas señalados, en futuras publicaciones y capacitaciones los abordaremos.**
+<br>
