@@ -17,7 +17,7 @@ avatar: "/img/logop.png"
 
 # List of links in the navigation bar
 navbar-links:
-  Potencial R: "/basico/_posts/2017-07-07-R_potencial"
+  Potencial R: "http://rusersgroup.com/blog/R_potencial/"
   Publicaciones:
     - Temario: "publicaciones"
     - Etiquetas: "tags"
