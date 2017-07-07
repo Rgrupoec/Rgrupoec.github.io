@@ -31,7 +31,9 @@ R es un lenguaje de programación que está en constante evolución y del que se
 Aplicaciones
 ===================
 
-> **R funciona con cualquier tipo de archivo, es muy flexible, puede trabajar con datos procedentes de todo tipo de archivos: txt, csv, prm, JSON, xls, xlsx, dta, sav, mtp, png, jpeg, mp3, mp4, etc., etc., si, así es, formatos de imágenes, sonidos, video, etc., etc., puedes analizar imágenes, sonidos, videos, etc., etc.**
+> **R funciona con cualquier tipo de archivo, es muy flexible, puede trabajar con datos procedentes de todo tipo de archivos: txt, csv, prm, JSON, xls, xlsx, dta, sav, mtp, png, jpeg, mp3, mp4, etc., etc., si, así es, imágenes, audio, video, etc., etc., puedes analizar imágenes, sonidos, videos, etc., etc.**
+
+> **Permite realizar análisis de estadística descriptiva, inferencial, paramétrica, no paramétrica, Bayesiana, univariante, multivariante, funcional, etc.**
 
 > **Permite comprimir y organizar la información en sus formatos .rda o .Rdata.**
 
@@ -39,7 +41,7 @@ Aplicaciones
 
 > **Permite integración con SPSS Modeler, Tableau, Qlik Sense, ArcGIS, SAP, SAS, etc., etc.**
 
-> **La escalabilidad es un elemento clave, así que también permite integración con Hadoop, Spark, Elasticsearch, Kibana, es decir *BIGDATA*.**
+> **La escalabilidad es un elemento clave, así que también permite integración con Hadoop, Spark, Elasticsearch, Kibana, es decir BIGDATA.**
 
 > **Permite el desarrollo de publicaciones, libros, aplicaciones, dashboards y presentaciones con shiny, shinydashboard, flexdashboard, slidify, rpresenter, markdown, bookdown, etc., etc.**
 
@@ -53,6 +55,6 @@ Aplicaciones
 
 ![](/img/publicaciones/2017-07-07-wordcloud.png.png)
 
-Y bueno, se nos deben escapar muchas opciones, esperamos que con este pequeño resumen te unas a nuestra comunidad.
+Y bueno, se nos deben escapar muchas opciones, esperamos que con este pequeño resumen te sumes a la comunidad de usuarios de R.
 
 > **Si estas interesado en aplicar al menos uno de los temas señalados, en futuras publicaciones y capacitaciones los abordaremos.**
