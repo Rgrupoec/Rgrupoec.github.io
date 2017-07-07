@@ -39,7 +39,7 @@ Aplicaciones
 
 > **Permite integración con SPSS Modeler, Tableau, Qlik Sense, ArcGIS, SAP, SAS, etc., etc.**
 
-> **la escalabilidad es un elemento clave, así que también permite integración con Hadoop, Spark, Elasticsearch, Kibana, es decir *BIGDATA*.**
+> **La escalabilidad es un elemento clave, así que también permite integración con Hadoop, Spark, Elasticsearch, Kibana, es decir *BIGDATA*.**
 
 > **Permite el desarrollo de publicaciones, libros, aplicaciones, dashboards y presentaciones con shiny, shinydashboard, flexdashboard, slidify, rpresenter, markdown, bookdown, etc., etc.**
 
@@ -53,4 +53,4 @@ Aplicaciones
 
 Y bueno se nos deben escapar muchas mas opciones, esperamos que con este pequeño resumen te unas a nuestra comunidad.
 
-> **Si estas interesado en aplicar al menos uno de los temas señalados, en futuras publicaciones o capacitaciones los abordaremos.**
+> **Si estas interesado en aplicar al menos uno de los temas señalados, en futuras publicaciones y capacitaciones los abordaremos.**
