@@ -51,6 +51,6 @@ Aplicaciones
 
 > **Obiamente puedes utilizar servicios soap, rest, etc., etc. y generar tareas automáticas o desarrollar aplicaciones con cloud computing con AWS, AZURE, Google Platform o usar tu propio servidor.**
 
-Y bueno se nos deben escapar muchas mas opciones, esperamos que con este pequeño resumen te unas a nuestra comunidad.
+Y bueno, se nos deben escapar muchas mas opciones, esperamos que con este pequeño resumen te unas a nuestra comunidad.
 
 > **Si estas interesado en aplicar al menos uno de los temas señalados, en futuras publicaciones y capacitaciones los abordaremos.**
