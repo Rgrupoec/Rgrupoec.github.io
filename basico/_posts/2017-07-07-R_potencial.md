@@ -47,12 +47,12 @@ Aplicaciones
 
 > **Permite webscraping e integración con redes sociales.**
 
-> **Permite realziar análisis en tiempo real.**
+> **Permite realizar análisis en tiempo real.**
 
 > **Obviamente puedes utilizar servicios soap, rest, etc., etc. y generar tareas automáticas o desarrollar aplicaciones con cloud computing con AWS, AZURE, Google Platform o usar tu propio servidor.**
 
 ![](/img/publicaciones/2017-07-07-wordcloud.png.png)
 
-Y bueno, se nos deben escapar muchas mas opciones, esperamos que con este pequeño resumen te unas a nuestra comunidad.
+Y bueno, se nos deben escapar muchas opciones, esperamos que con este pequeño resumen te unas a nuestra comunidad.
 
 > **Si estas interesado en aplicar al menos uno de los temas señalados, en futuras publicaciones y capacitaciones los abordaremos.**
