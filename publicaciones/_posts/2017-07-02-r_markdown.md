@@ -37,4 +37,4 @@ Código para reproducir el ejemplo:
 > - **Debes usar el paquete `markdown` y guardar el código en formato `.Rmd`.**
 > - **Entonces podrás ver estas opciones en Rstudio:**
 
-![](https://github.com/Rgrupoec/Rgrupoec.github.io/blob/master/img/publicaciones/2017-07-02-r-markdown.png?raw=true)
+![](https://raw.githubusercontent.com/Rgrupoec/Rgrupoec.github.io/master/img/publicaciones/2017-07-02-R_MARKDOWN_BASICO.gif)
