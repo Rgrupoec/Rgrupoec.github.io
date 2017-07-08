@@ -4,8 +4,6 @@ title: Consultoria
 subtitle: Consultorias
 published: true
 comments: false
-bigimg:
-  - /img/platforms.png: I work on all platforms, yes I do ;)
 ---
 <a name="top"></a>
 
