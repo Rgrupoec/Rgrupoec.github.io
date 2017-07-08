@@ -512,21 +512,13 @@ footer .theme-by {
   }
 }
 
-.caption {
-  text-align: center;
-  font-size: 14px;
-  padding: 10px;
-  font-style: italic;
-  margin: 0;
-  display: block;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
+.post-heading .post-meta {		
+  color: #808080;		
+  font-size: 18px;		
+  font-style: italic;		
+  margin: 0 0 10px;		
 }
 
-/* .header-background { */
-/*   padding: 15px; */
-/*   background: rgba(0, 0, 0, 0.4); */
-/* } */
 
 /* --- Pager --- */
 
