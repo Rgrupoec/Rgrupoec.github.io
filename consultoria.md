@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 title: Consultoria
 subtitle: Consultorias
 published: true
