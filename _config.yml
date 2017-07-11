@@ -18,6 +18,7 @@ avatar: "/img/logop.png"
 # List of links in the navigation bar
 navbar-links:
   Potencial R: "http://rusersgroup.com/blog/R_potencial/"
+  Splash: "spla"
   Publicaciones:
     - Temario: "publicaciones"
     - Etiquetas: "tags"
@@ -27,7 +28,6 @@ navbar-links:
   Nosotros:
     - ¿Quiénes somos?: "about"
     - Contacto: "contact"
-  Splash: "spla"
   
 # --- Footer options --- #
 
