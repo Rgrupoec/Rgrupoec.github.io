@@ -59,6 +59,7 @@ share-links-active:
   linkedin: false
 
 disqus: "rusersgroup-com"
+google_analytics: "UA-102304043-1"
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
