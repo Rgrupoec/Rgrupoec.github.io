@@ -6,7 +6,9 @@ published: true
 comments: true
 ---
 
-
+header:
+  image: /img/platforms.png
+  
 <ul class="tag-box inline">
 {% assign tags_list = site.publicaciones %}  
   {% if tags_list.first[0] == null %}
