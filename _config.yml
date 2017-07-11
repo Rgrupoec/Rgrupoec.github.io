@@ -27,6 +27,7 @@ navbar-links:
   Nosotros:
     - ¿Quiénes somos?: "about"
     - Contacto: "contact"
+  Splash: "spla"
   
 # --- Footer options --- #
 
