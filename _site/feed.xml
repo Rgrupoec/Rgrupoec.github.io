@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R Users Group - Ecuador</title>
+    <description>Pagina oficial de R Users Group - Ecuador</description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>¿Nuevo en R o no conoces todo su potencial? Esto es para ti</title>
+        <description>
+          
+          ¿Qué es R? Si este es tu primer acercamiento a R, es muy probable que te encuentres analizando las ventajas y utilidades de R sobre otro software estadístico; como veremos más adelante R es mucho más que eso. A través de R Users Group - Ecuador te invitamos a que...
+        </description>
+        <pubDate>Fri, 07 Jul 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/R_potencial/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/R_potencial/</guid>
+      </item>
+    
+      <item>
+        <title>Pequeña muestra de Shiny</title>
+        <description>
+          
+          ¿El post R y markdown fue realmente básico?
+
+¿Quieres algo dinámico?
+
+
+
+
+  
+    Ejemplo aplicación shiny
+  
+
+
+
+  
+    En futuras publicaciones abordaremos el desarrollo de dashboards y aplicaciones en shiny básicas y avanzadas.
+  
+
+
+
+        </description>
+        <pubDate>Thu, 06 Jul 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/shinyapp/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/shinyapp/</guid>
+      </item>
+    
+      <item>
+        <title>R y Markdown - básico</title>
+        <description>
+          
+          Documentos Markdown generados con R Este es un ejemplo básico del uso de R y Markdown para generar doumentos HTML, Word y PDF. Código R summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean...
+        </description>
+        <pubDate>Sun, 02 Jul 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/r_markdown/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/r_markdown/</guid>
+      </item>
+    
+      <item>
+        <title>Primera publicación</title>
+        <description>
+          
+           Primera publicación de R Users Group - Ecuador.
+
+Estamos probando nuestra web, en pocos días publicaremos contenido muy interesante.
+
+  Nota:
+
+
+
+  
+    Únete a la comunidad de usuarios de R en Ecuador.
+    Comparte esta web con tu red.
+  
+
+
+R Users Group - Ecuador
+
+
+        </description>
+        <pubDate>Sun, 02 Jul 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/primera-publicacion/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/primera-publicacion/</guid>
+      </item>
+    
+      <item>
+        <title>Web oficial</title>
+        <description>
+          
+          R Users Group - Ecuador presenta su web oficial. En esta web se registran todas las actividades de la comunidad R Users Group - Ecuador. A su vez servirá como blog y repositorio para compartir investigaciones y aplicaciones de las mismas. Nota: Si te interesa publicar contenido, favor contáctanos a...
+        </description>
+        <pubDate>Sun, 02 Jul 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/web_ofiial/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/web_ofiial/</guid>
+      </item>
+    
+  </channel>
+</rss>

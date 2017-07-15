@@ -5,9 +5,6 @@ subtitle: Temario de publicaciones
 published: true
 comments: true
 ---
-
-header:
-  image: /img/platforms.png
   
 <ul class="tag-box inline">
 {% assign tags_list = site.publicaciones %}  
