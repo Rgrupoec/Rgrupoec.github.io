@@ -1,0 +1,86 @@
+---
+layout: 		post
+title: R en la nube!
+comments:		true
+tags: 
+  - R
+  - nube
+noToc:			true
+---
+
+R en la nube!
+===================
+Te mostramos varias opciones para usar la cosola de R en línea.
+
+R-fiddle
+-------------
+Consola de R interactiva desde tu explorador, sencilla y útil.
+[r-fiddle](http://www.r-fiddle.org/)
+
+<iframe width='120%' height='700' src='http://r-fiddle.org/#/embed/eYsWfghB/1' allowfullscreen='allowfullscreen' frameborder='0'></iframe>
+
+Codingground
+-------------
+Consola de R interactiva desde tu explorador con mayores opciones, permite ingresar al terminal del servidor.
+[Codingground](https://www.tutorialspoint.com//execute_r_online.php)
+![](https://raw.githubusercontent.com/Rgrupoec/Rgrupoec.github.io/master/img/publicaciones/2017-07-15-codinggroup.gif)
+
+DataJoy y R on cloud ya no están en funcionamiento.
+-------------
+Estas 2 herramientas dejaron de estar en funcionamiento a inicios de 2017.
+
+Jupyter Notebook
+-------------
+Aplicación web de código abierto que permite crear y compartir documentos que contienen código en vivo, ecuaciones, visualizaciones y texto explicativo. Los usos incluyen: limpieza y transformación de datos, simulación numérica, modelado estadístico, aprendizaje automático y mucho más.
+Además permite integración R, Python, Julia, Haskell, Ruby entre otros.
+[jupyter](https://try.jupyter.org/)
+![](https://raw.githubusercontent.com/Rgrupoec/Rgrupoec.github.io/master/img/publicaciones/2017-07-15-jupyter.gif)
+
+R en la nube para aprendizaje
+===================
+
+CodeSchool
+-------------
+Plataforma de aprendizaje de varios lenguajes de programación y herramientas para ciencia de datos.
+Code School enseña tecnologías web con lecciones de video, desafíos de codificación y screencasts. 
+Su lema es aprender haciendo.
+
+Buena opción si eres nuevo en R.
+El curso tiene 7 niveles en los cuales se muestra el manejo de la consola, expresiones regulares, variables, funciones, vectores, matrices, dataframes, etc.
+[CodeSchool - Try R](https://www.codeschool.com/courses/try-r)
+![](https://raw.githubusercontent.com/Rgrupoec/Rgrupoec.github.io/master/img/publicaciones/2017-07-15-codeschool.gif)
+
+Datacamp
+-------------
+Plataforma de aprendizaje de varios lenguajes de programación y herramientas para ciencia de datos.
+Code School enseña tecnologías web con lecciones de video, desafíos de codificación y screencasts. 
+Ideal para aprender haciendo.
+
+[DataCamp - Introduction to R](https://campus.datacamp.com/courses/free-introduction-to-r/)
+![](https://raw.githubusercontent.com/Rgrupoec/Rgrupoec.github.io/master/img/publicaciones/2017-07-15-datacamp.gif)
+
+swirl
+-------------
+Swirl es un paquete creado para enseñar el lenguaje de programación R, pero desde tu computador, en sí no debería estar en esta publicación sobre R en la nube, pero dado que está muy ligado a los objetivos de Datacamp y Codeschool lo añadimos.
+Aprende R, en R.
+
+[swirl](http://swirlstats.com/)
+![](https://raw.githubusercontent.com/Rgrupoec/Rgrupoec.github.io/master/img/publicaciones/2017-07-15-swirl.gif)
+
+> **Note:**
+
+> - Si quieres ser un experto en varios lenguaje de programación y convertirte en un científico de datos no puedes no pasar por: 
+
+>  - [Coursera](https://www.coursera.org/)
+ - [edx](https://www.edx.org/)
+ - [khanacademy](https://www.khanacademy.org/)
+ - [codeacademy](https://www.codecademy.com)
+ - [lynda](https://www.lynda.com)
+ - [futurelearn](https://www.futurelearn.com)
+ - [canvas.net](https://www.canvas.net)
+ - [udacity](https://www.udacity.com/)
+ - [Miríadax](https://miriadax.net)
+
+<br>
+En futuras publicaciones abordaremos una extensión a estas herramientas con Cloud Computing de pago como Azure, Google Platform, AWS y gratuitas como 9cloud.
+ 
