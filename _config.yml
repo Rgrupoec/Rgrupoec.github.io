@@ -18,7 +18,6 @@ avatar: "/img/logop.png"
 # List of links in the navigation bar
 navbar-links:
   Potencial R: "http://rusersgroup.com/blog/R_potencial/"
-  R online: "R"
   Publicaciones:
     - Temario: "publicaciones"
     - Etiquetas: "tags"
