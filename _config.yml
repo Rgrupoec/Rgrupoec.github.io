@@ -48,7 +48,7 @@ footer-links-active:
   email: true
   twitter: true
   github: true
-  linkedin: false
+  linkedin: true
   stackoverflow: false
   
   # Select which share links to show in posts
