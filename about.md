@@ -24,6 +24,10 @@ board-list:
     img: /img/people/nestor.jpg
     desc: Ingeniero en Estadística informática y Maestrante en Estadística con Mención en Calidad y Productividad de la ESPOL. Capacitador de la Sociedad Ecuatoriana de Estadística en R, Experto en manejo eficiente de grandes volúmenes de datos, Experto en automatización de informes, presentaciones o reportes con R, Especialista en muestreo, estadística multivariante, forecasting, algoritmos de clasificación, optimización, inteligencia de negocios y desarrollo de aplicaciones estadísticas.
     url: https://www.linkedin.com/in/nestor-monta%C3%B1o/
+  - name: Fabián Avalos
+    img: /img/people/fabian.jpg
+    desc: Miembro de la comisión de investigación y posgrado de la Facultad de Ciencias-ESPOCH, Presidente de la Asosiación de Estudiantes en la Escuela de Física y Matemática, Administrador y Configurador de Servidores de Windows certificado por Microsoft, Estudiante de la Carrera de Ingeniería en Estadística Informática en la ESPOCH, Especialista en Control Estadístico de Calidad y Mejora de Procesos.
+    url: https://www.linkedin.com/in/fabi%C3%A1n-avalos-723175149/
   - name: Dayana Tipán Jiménez
     img: /img/people/daya.jpg
     desc: Vice Presidenta de la Asociación de Estudiantes de la Facultad de Ciencias Económicas-UCE, Presidenta de la Escuela de Estadística, Presidenta del Club de Aplicación, desarrollo e investigaciones Estadísticas, Estudiante de la Carrera de Ingeniería Estadística en la UCE, Especialista en Análisis Multivariante.
