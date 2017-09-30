@@ -11,7 +11,7 @@ noToc:			true
 <p><a name="top"></a></p>
 <ul>
 <li><a href="#intro">Reportería en excel con R y xlsx</a></li>
-<li><a href="#trad">Forma tradicional</a></li>
+<li><a href="#trad">Formato tradicional</a></li>
 <li><a href="#per">Formato personalizado</a></li>
 </ul>
 <hr />
