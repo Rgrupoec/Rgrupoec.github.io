@@ -124,7 +124,7 @@ exportar(mtcars, &quot;R Users Group - Ecuador - mtcars.xlsx&quot;)</code></pre>
 <pre><code>linea(sheet_extra, rowIndex=9, 
             title=&quot;Elaborado por: R Users Group - Ecuador&quot;,
             titleStyle = subtitulo)</code></pre>
-<p>Podemos usar el mismo estilo en todas las hojas o cambairlo de acuerdo a nuestras necesidades, al igual que los títulos, subtítulos, etc.</p>
+<p>Podemos usar el mismo estilo en todas las hojas o cambiarlo de acuerdo a nuestros gustos y necesidades, al igual que los títulos, subtítulos, etc.</p>
 <p>Si realizamos reportes similares a diario, o requerimos exportar varios archivos podemos aplicar estas funciones dentro de condicionales while o for y volverlo un proceso automático.</p>
 <p><a href="#top">Back to Top</a></p>
 </div>
