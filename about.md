@@ -3,7 +3,7 @@ layout: page
 title: ¿Quiénes somos?
 subtitle: Personas detrás de R Users Group - Ecuador
 published: true
-board-list:
+direct-list:
   - name: Miguel A. Flores Sánchez
     img: /img/people/miguel.jpg
     desc: Fundador de la comunidad R Users Group - Ecuador. Máster en Técnicas Estadística y Ph.D (c) Estadística e Investigación de Operaciones de la Universidad de La Coruña. Magister en Investigación Operativa con mención en Sistemas Logísticos y de Transporte de la EPN. Ingeniero en Estadística Informática de la ESPOL. Docente e Investigador del Departamento de Matemática de la EPN, Capacitador de la Sociedad Ecuatoriana de Estadística en R.
@@ -11,7 +11,7 @@ board-list:
   - name: Víctor Morales Oñate
     img: /img/people/victor.jpg
     desc: Doctor (c) en Estadística, Universidad de Valparaíso, Chile. Magister (c) en Filosofía, Pontificia Universidad Católica de Valparaíso. Magister en Matemáticas Aplicadas de la USFQ. Ingeniero en Ciencias Económicas y Financieras de la EPN, Consultor, analista, docente y capacitador. Experto en análisis de datos y modelamiento econométrico de datos socioeconómicos y aplicaciones de estadística multivariante, Experto en estimación de áreas pequeñas y clasificación difusa, Investigador de estadística espacio-temporal.
-    url: https://www.linkedin.com/in/cristian-benalcázar-62b8b93b/
+    url: https://www.linkedin.com/company/24979492/
   - name: Cristian Benalcázar
     img: /img/people/crb.jpg
     desc: Ingeniero en Ciencias Económicas y Financieras de la EPN. Licenciado en Economía y Gestión, Jean Monnet, Francia. Especialista en Ciencia de datos de la Universidad Johns Hopkins. Especialista en análisis de datos para la toma de decisiones, Experto en automatización de modelos estadísticos y econométricos, Experto en el desarrollo de productos estadísticos y aplicaciones de consulta, captura, control y visualización, Experto en integración de lenguajes de programación y bases de datos con R.
@@ -36,6 +36,17 @@ board-list:
     img: /img/people/daya.jpg
     desc: Vice Presidenta de la Asociación de Estudiantes de la Facultad de Ciencias Económicas-UCE. Presidenta de la Escuela de Estadística. Presidenta del Club de Aplicación, desarrollo e investigaciones Estadísticas. Estudiante de la Carrera de Ingeniería Estadística en la UCE. Especialista en Análisis Multivariante.
     url: https://www.linkedin.com/in/dayana-tipan-079762147/
+
+
+consul-list:
+  - name: Marcos Armas
+    img: /img/people/marcos.jpg
+    desc: Master en Explotación de Datos y Descubrimiento del Conocimiento en la Universidad de Buenos Aires (UBA), Argentina. Ingeniero en Sistemas e Informática de la ESPE. Científico de datos, consultor, desarrollador de software. Experto en business intelligence, business analytics y data science. Experto en el desarrollo de soluciones de alto poder computacional, generación de modelos matemáticos, algoritmos de inteligencia artificial, transformación e imputación de datos y visualizaciones de datos multidimensionales. Experto en el manejo de grandes volúmenes de datos.
+    url: https://www.linkedin.com/in/marcosarmas/
+  - name: Eduardo Marín
+    img: /img/people/eduardo.jpg
+    desc: Máster en Estadística Aplicada con mención en Econometría y Data Mining por la Universidad Católica de Lovaina, Bélgica. Licenciado en Economía y Gestión por la Universidad Pierre Mendès France, Grenoble-Francia. Economista por la PUCE. Consultor, Científico de Datos. Especialista en procesos estocásticos multivariados, modelos bayesianos y econometría utilizando Data Science y Machine Learning. Ha participado en múltiples consultorías a nivel internacional, destacando el análisis de Índice de Economía Digital y Sociedad (DESI) para la Unión Europea.
+    url: https://www.linkedin.com/in/eemarin/
 ---
 
 <b>R Users Group - Ecuador</b> es una comunidad creada con el propósito de promover el uso del software estadístico R Project, además de fomentar la aplicación adecuada de las técnicas estadísticas.
@@ -49,4 +60,16 @@ Entre los objetivos de la comunidad de usuarios de R en Ecuador se encuentran lo
 
 ## Directorio
 
-{% include list-circles.html items=page.board-list %}
+{% include list-circles.html items=page.direct-list %}
+
+## Consultores asociados
+
+{% include list-circles.html items=page.consul-list %}
+
+[Bases y condiciones](http://rusersgroup.com/consul/) para registro como consultores asociados.
+
+## Miembros de R Users Group - Ecuador
+
+* [Usuario X](https://www.linkedin.com/company/24979492/)
+* [Usuario Y](https://www.linkedin.com/company/24979492/)
+* [Usuario Z](https://www.linkedin.com/company/24979492/)
