@@ -18,6 +18,7 @@ avatar: "/img/final5x5.png"
 # List of links in the navigation bar
 navbar-links:
   Potencial R: "http://rusersgroup.com/blog/R_potencial/"
+  Únete a la comunidad: "join"
   Publicaciones:
     - Temario: "publicaciones"
     - Etiquetas: "tags"
@@ -26,6 +27,7 @@ navbar-links:
     - Consultoría: "consultoria"
   Nosotros:
     - ¿Quiénes somos?: "about"
+    - Únete como consultor: "consul"
     - Contacto: "contact"
   
 # --- Footer options --- #
