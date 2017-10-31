@@ -27,9 +27,10 @@ navbar-links:
     - Consultoría: "consultoria"
   Nosotros:
     - ¿Quiénes somos?: "about"
-    - Únete como consultor: "consul"
     - Contacto: "contact"
-  
+  Únete como consultor: "consul"
+
+
 # --- Footer options --- #
 
 # Change all these values or delete the ones you don't want.
