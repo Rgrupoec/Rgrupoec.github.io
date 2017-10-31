@@ -73,3 +73,5 @@ Entre los objetivos de la comunidad de usuarios de R en Ecuador se encuentran lo
 * [Usuario X](https://www.linkedin.com/company/24979492/)
 * [Usuario Y](https://www.linkedin.com/company/24979492/)
 * [Usuario Z](https://www.linkedin.com/company/24979492/)
+
+[Regístrate como miembro de la comunidad](http://rusersgroup.com/join/).
