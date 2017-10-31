@@ -1,6 +1,6 @@
 ---
 layout: 	page
-title: 		Contactanos
+title: 		Contáctanos
 comments:	false
 noToc:		true
 group: 		navigation
