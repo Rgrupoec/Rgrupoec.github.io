@@ -11,7 +11,7 @@ board-list:
 - name: Víctor Morales Oñate
     img: /img/people/victor.jpg
     desc: Doctor (c) en Estadística, Universidad de Valparaíso, Chile. Magister (c) en Filosofía, Pontificia Universidad Católica de Valparaíso. Magister en Matemáticas Aplicadas, Universidad San Francisco de Quito. Ingeniero en Ciencias Económicas y Financieras de la EPN, Consultor, analista, docente y capacitador, Experto en análisis de datos y modelamiento econométrico de datos socioeconómicos y aplicaciones de estadística multivariante, Experto en estimación de áreas pequeñas y clasificación difusa, Investigador de estadística espacio-temporal.
-    url: https://www.linkedin.com 
+    url: https://www.linkedin.com/
   - name: Cristian Benalcázar
     img: /img/people/crb.jpg
     desc: Ingeniero en Ciencias Económicas y Financieras de la EPN. Licenciado en Economía y Gestión, Jean Monnet, Francia. Especialista en Ciencia de datos de la Universidad Johns Hopkins. Especialista en análisis de datos para la toma de decisiones, Experto en automatización de modelos estadísticos y econométricos, Experto en el desarrollo de productos estadísticos y aplicaciones de consulta, captura, control y visualización, Experto en integración de lenguajes de programación y bases de datos con R.
