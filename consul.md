@@ -3,6 +3,7 @@ layout: page
 title: Consultores asociados
 subtitle: Bases y condiciones para reconocimiento
 published: true
+commments: true
 ---
 ¿Quién puede unirse?
 -------------
@@ -34,6 +35,8 @@ Las postulaciones son individuales y se realizan de forma virtual.
 Es necesario registrarse previamente como miembro de R Users Group - Ecuador, para luego, aplicar como consultor enviando la documentación requerida.
 
 Requisitos para reconocimiento como Consultor asociado:
+-------------
+
 * Estar graduado de alguna carrera asociada a Ciencias Exactas y Naturales, Ciencias Economómicas, Ingeniería, Ciencia de datos y disciplinas afines.
 * Encontrarse realizando un posgrado o estar trabajando en temas vinculados a la investigación y desarrollo de aplicaciones prácticas de R.
 * Tener nacionalidad Ecuatoriana.
@@ -61,4 +64,9 @@ Los postulantes serán seleccionados de acuerdo a los siguientes criterios:
 
 Inscripción
 -------------
-La inscripción se realiza enviando la documentación requerida a info@rusersgroup.com indicando en el asunto "Aplicación Consultor"
+
+La inscripción inicia con el registro como miembro de R Users Group - Ecuador:
+
+<div class="typeform-widget" data-url="https://rusersgroup.typeform.com/to/rLwWDu" style="width: 100%; height: 500px;" > </div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;" > powered by <a href="https://www.typeform.com//?utm_campaign=rLwWDu&amp;utm_source=typeform.com-10922552-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-poweredbytypeform&amp;utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+
+Finalmente se envía la documentación requerida al mail **info@rusersgroup.com** indicando en el asunto **"Aplicación Consultor".**
