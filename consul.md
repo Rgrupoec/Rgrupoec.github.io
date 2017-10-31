@@ -7,7 +7,7 @@ commments: true
 ---
 ¿Quién puede unirse?
 -------------
-<b>R Users Group - Ecuador</b> tiene como objetivo reunir a una comunidad de personas activamente involucradas en el desarrollo de investigación, aplicaciones y paquetes de R.
+<b>R Users Group - Ecuador</b> tiene dentro de sus objetivos reunir a una comunidad de personas activamente involucradas en el desarrollo de investigación, aplicaciones y paquetes de R.
 Damos la bienvenida a investigadores y desarrolladores con experiencia en R.
 
 ¿Qué significa 'unirse'?
