@@ -4,12 +4,13 @@ title: Consultores asociados
 subtitle: Bases y condiciones para reconocimiento
 published: true
 ---
-##¿Quién puede unirse?
-
+¿Quién puede unirse?
+-------------
 <b>Users Group - Ecuador</b> tiene como objetivo reunir a una comunidad de personas activamente involucradas en el desarrollo de investigación, aplicaciones y paquetes de R.
 Damos la bienvenida a investigadores y desarrolladores con experiencia en R.
 
-##¿Qué significa 'unirse'?
+¿Qué significa 'unirse'?
+-------------
 
 Los consultores generan valiosos aportes a la comunidad de usuarios de R en Ecuador, promueven el uso del software estadístico R Project y fomentan la aplicación adecuada de las técnicas estadísticas mediante:
 * Soporte y asesoria en proyectos de investigación y aplicaciones.
@@ -26,8 +27,8 @@ Ser beneficiarios de la experiencia de otros consultores.
 Participar en el desarrollo de investigaciones y aplicaciones de R planificados por R Users Group - Ecuador. 
 Ser invitados a futuros eventos de R Users Group - Ecuador.
 
-##¿Como unirse?
-
+¿Como unirse?
+-------------
 Las postulaciones son individuales y se realizan de forma virtual.
 
 Es necesario registrarse previamente como miembro de R Users Group - Ecuador, para luego, aplicar como consultor enviando la documentación requerida.
@@ -38,8 +39,8 @@ Requisitos para reconocimiento como Consultor asociado:
 * Tener nacionalidad Ecuatoriana.
 * Presentar la documentación que respalde los antecedentes mencionados.
 
-##Documentación requerida
-
+Documentación requerida
+-------------
 La documentación deberá enviarse en un único archivo, en formato PDF que no supere 2MB y que este guardado
 con el nombre del postulante (Ejemplo: Jorge Paredes.pdf)
 
@@ -52,12 +53,12 @@ con el nombre del postulante (Ejemplo: Jorge Paredes.pdf)
 2. NOTA DEL CANDIDATO indicando el impacto esperado y expectativas como consultor asociado a R Users Group - Ecuador.
 
 Criterios de selección
-
+-------------
 Los postulantes serán seleccionados de acuerdo a los siguientes criterios:
 * Conocimientos
 * Experiencia
 * Impacto
 
 Inscripción
-
+-------------
 La inscripción se realiza enviando la documentación requerida a info@rusersgroup.com indicando en el asunto "Aplicación Consultor"
