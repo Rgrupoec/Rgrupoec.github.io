@@ -8,7 +8,7 @@ board-list:
     img: /img/people/miguel.jpg
     desc: Fundador de la comunidad R Users Group - Ecuador. Máster en Técnicas Estadística y Ph.D (c) Estadística e Investigación de Operaciones de la Universidad de La Coruña. Magister en Investigación Operativa con mención en Sistemas Logísticos y de Transporte de la EPN. Ingeniero en Estadística Informática de la ESPOL. Docente e Investigador del Departamento de Matemática de la EPN, Capacitador de la Sociedad Ecuatoriana de Estadística en R.
     url: https://www.linkedin.com/in/miguel-flores-sanchez/ 
-    - name: Víctor Morales Oñate
+  - name: Víctor Morales Oñate
     img: /img/people/victor.jpg
     desc: Doctor (c) en Estadística, Universidad de Valparaíso, Chile. Magister (c) en Filosofía, Pontificia Universidad Católica de Valparaíso. Magister en Matemáticas Aplicadas de la USFQ. Ingeniero en Ciencias Económicas y Financieras de la EPN, Consultor, analista, docente y capacitador. Experto en análisis de datos y modelamiento econométrico de datos socioeconómicos y aplicaciones de estadística multivariante, Experto en estimación de áreas pequeñas y clasificación difusa, Investigador de estadística espacio-temporal.
     url: https://www.linkedin.com/in/cristian-benalcázar-62b8b93b/
