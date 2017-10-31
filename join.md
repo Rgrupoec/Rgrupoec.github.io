@@ -7,12 +7,10 @@ comments: true
 ---
 ¿Quién puede unirse?
 -------------
-<b>R Users Group - Ecuador</b> tiene dentro de sus objetivos promover el uso del software estadístico R Project, además de fomentar la aplicación adecuada de las técnicas estadísticas.
-Damos la bienvenida a quienes inician en R y a quienes quieren expecializarse o compartir resultados de su investigación y desarrollo.
+<b>R Users Group - Ecuador</b> da la bienvenida a quienes inician en R y a quienes quieren expecializarse o compartir resultados de su investigación y aplicaciones.
 
 ¿Qué significa 'unirse'?
 -------------
-
 Los mimebros de R Users Group - Ecuador tienen:
 * Acceso a valiosos aportes de investigación y aplicaciones usando el software estadístico R Project.
 * Soporte y asesoria en proyectos de investigación y aplicaciones.
