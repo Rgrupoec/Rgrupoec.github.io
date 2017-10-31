@@ -7,7 +7,7 @@ commments: true
 ---
 ¿Quién puede unirse?
 -------------
-<b>Users Group - Ecuador</b> tiene como objetivo reunir a una comunidad de personas activamente involucradas en el desarrollo de investigación, aplicaciones y paquetes de R.
+<b>R Users Group - Ecuador</b> tiene como objetivo reunir a una comunidad de personas activamente involucradas en el desarrollo de investigación, aplicaciones y paquetes de R.
 Damos la bienvenida a investigadores y desarrolladores con experiencia en R.
 
 ¿Qué significa 'unirse'?
@@ -20,7 +20,7 @@ Los consultores generan valiosos aportes a la comunidad de usuarios de R en Ecua
 
 La propiedad de cualquier material publicado o dsarrollado permanece con su autoría.
 
-Los consultores de R Users Group - Ecuador pueden:
+**Los consultores de R Users Group - Ecuador pueden:**
 * Anunciar el desarrollo de paquetes y publicar análisis, investigaciones y experiencias de aplicaciones prácticas y demás temas relevantes dentro del blog de R Users Group - Ecuador.
 * Compartir datos, scripts y material relevante en la web de R Users Group - Ecuador.
 * Ser invitados automáticamente a los foros y congresos de R Users Group - Ecuador, que albergarán debates privados y públicos relacionados con el análisis de datos, modelamientos y programación en R.
