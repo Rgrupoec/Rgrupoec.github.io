@@ -11,7 +11,7 @@ comments: true
 
 ¿Qué significa 'unirse'?
 -------------
-Los mimebros de R Users Group - Ecuador tienen:
+Los miembros de R Users Group - Ecuador tienen:
 * Acceso a valiosos aportes de investigación y aplicaciones usando el software estadístico R Project.
 * Soporte y asesoria en proyectos de investigación y aplicaciones.
 * Acceso exclusivo a talleres, seminarios y demás actividades de capacitación.
