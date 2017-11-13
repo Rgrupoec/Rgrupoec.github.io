@@ -29,6 +29,7 @@ navbar-links:
     - Contacto: "contact"
   Únete a la comunidad:
     - como miembro: "join"
+    - como miembro editor: "join_editor"
     - como Consultor: "consul"
 
 
