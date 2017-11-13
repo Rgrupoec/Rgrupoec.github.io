@@ -102,7 +102,7 @@ Entre los objetivos de la comunidad de usuarios de R en Ecuador se encuentran lo
 * [Ingrid Sarmiento Torres](http://linkedin.com/in/ingrid-sarmiento-torres-98525536)
 * [Jacobo Alejandro Mero Herrera](http://www.linkedin.com/in/jacobo-mero)
 * [Johanna Lorena Sanchez Castro](https://www.linkedin.com/feed/)
-* [Jorge armando castro Hernández](http://www.linkedin.com/in/a-castro)
+* [Jorge Armando Castro Hernández](http://www.linkedin.com/in/a-castro)
 * [Jorge Luis Villalba Acrvedo](http://www.linkedin.com/in/jorge-villalba-acevedo-589040135/)
 * [Jorge Parraga Alava](http://linkdin.com/in/jorgeklz)
 * [José Antonio Contreras Chijate](http://www.linkedin.com/in/jacchi)
