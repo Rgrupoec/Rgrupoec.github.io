@@ -16,13 +16,19 @@ La Sociedad Ecuatoriana de Estadística y el R Users Group - Ecuador te invitan 
 El motivo que nos atañe esta vez es rendir homenaje a todos aquellos que contribuyen a que la estadística sea un instrumento valioso en la toma de decisiones en el quehacer de sus múltiples campos de investigación. 
 
 ### CIENCIA 
+
 Roberto Castillo, Subdirector Ejecutivo del INEC
+
 Lilia Quituisaca, Numérica I+D
+
 Julia Helena Carrillo, country manager de IPSOS Consultor
 
 ### ARTE
+
 Juan Miranda, poeta 
+
 Daniela Sandoval, bailarina
+
 Darío Ramos, poeta
 
 ![](/img/eventos/concienciarte2.jpg)
