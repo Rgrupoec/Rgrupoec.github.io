@@ -18,7 +18,7 @@ Los miembros editores de R Users Group - Ecuador tienen:
 
 ¿Como convertirse en miembro editor?
 -------------
-Crea una publicación, investigación o informe reproducible en markdown “.Rmd”, revisa como hacerlo **aquí.**
+Crea una publicación, investigación o informe reproducible en markdown “.Rmd” y envíala a info@rusersgroup.com con el asunto "Publicación", revisa como crear publicaciones en markdown **aquí.**
 
 La publicación puede estructurarse como un pequeño informe o ensayo alineado a una de las siguientes categorías:
 
