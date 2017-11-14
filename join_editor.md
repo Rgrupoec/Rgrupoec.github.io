@@ -60,4 +60,4 @@ __Autoexigencia.__ No te conformes con escribir cualquier cosa, cuando publicas 
 
 __Constancia y dedicación.__ Un blog hay que actualizarlo periódicamente y para ello está toda la comunidad, hay que ser constantes en la generación de contenidos.
 
-> **Tener algo que contar, disfrutar escribiendo es una afición, no una obligación.** 
+> **Tener algo que contar y disfrutar escribiéndolo es una afición, no una obligación.** 
