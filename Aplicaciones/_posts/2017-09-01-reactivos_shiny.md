@@ -11,7 +11,7 @@ noToc:			true
 
 **Te compartimos esta app.**
 
-![Shinyapp básica](https://raw.githubusercontent.com/Rgrupoec/Rgrupoec.github.io/master/img/publicaciones/2017-09-01-shinyapp_reactivos.gif)
+![Shinyapp básica](https://raw.githubusercontent.com/Rgrupoec/Rgrupoec.github.io/master/img/publicaciones/2017-09-01-appreactivos.gif)
 
 > - **[Ejemplo aplicación reactivos](https://crbdlc.shinyapps.io/reactivos_rusersgroup/)**
 
