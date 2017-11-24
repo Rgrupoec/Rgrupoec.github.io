@@ -20,7 +20,7 @@ Los miembros editores de R Users Group - Ecuador tienen:
 -------------
 Crea una publicación, investigación o informe reproducible en markdown “.Rmd” y envíala a info@rusersgroup.com con el asunto "Publicación", revisa como crear publicaciones en markdown en el siguiente video:
 
-<center><iframe width="756" height="427" src="https://www.youtube.com/embed/tE8cgL1P-U0?rel=0&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe></center>
+<center><iframe width="756" height="427" src="https://youtu.be/tE8cgL1P-U0" frameborder="0" allowfullscreen></iframe></center>
 
 La publicación puede estructurarse como un pequeño informe o ensayo alineado a una de las siguientes categorías:
 
