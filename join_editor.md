@@ -48,7 +48,7 @@ No olvides definir previamente quién quieres que te lea, ¿Usuarios nuevos y p�
 
 Requisitos:
 -------------
-__Tiempo.__ Escribir requiere tiemp pero si ya has desarrollado tu investigación o tienes claro el objetivo de tu publicación lo harás enseguida.
+__Tiempo.__ Escribir requiere tiempo pero si ya has desarrollado tu investigación o tienes claro el objetivo de tu publicación lo harás enseguida.
 
 __Ganas.__ Estar motivado es fundamenta quizá lo más importante.
 
@@ -60,6 +60,6 @@ __Paciencia.__ Las visitas llegarán poco a poco, ten paciencia y escribe conten
 
 __Autoexigencia.__ No te conformes con escribir cualquier cosa, cuando publicas algo permanece ahí, al alcance de cualquiera en todo momento.
 
-__Constancia y dedicación.__ Un blog hay que actualizarlo periódicamente y para ello está toda la comunidad, hay que ser constantes en la generación de contenidos.
+__Constancia y dedicación.__ El contenido hay que actualizarlo periódicamente y para ello está toda la comunidad, hay que ser constantes en la generación de publicaciones.
 
 > **Tener algo que contar y disfrutar escribiéndolo es una afición.** 
