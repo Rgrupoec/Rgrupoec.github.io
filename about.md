@@ -145,6 +145,6 @@ Entre los objetivos de la comunidad de usuarios de R en Ecuador se encuentran lo
 * [Willin Alvarez](http://www.linkedin.com/in/willingabrielalvarezirausquin)
 * [Wilson Herrera ](https://www.linkedin.com/in/wilson-alberto-herrera-montaluisa/)
 
-[Únete a la Comunidad.](http://rusersgroup.com/join_editor/)
+[Únete a la Comunidad.](http://rusersgroup.com/join/)
 
 <b>Grupo de usuarios de en Ecuador</b>
