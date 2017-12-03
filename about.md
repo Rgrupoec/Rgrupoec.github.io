@@ -68,6 +68,12 @@ Entre los objetivos de la comunidad de usuarios de R en Ecuador se encuentran lo
 
 [Bases y condiciones](http://rusersgroup.com/consul/) para registro como consultores asociados.
 
+## Miembros editores de R Users Group - Ecuador
+
+{% include list-circles.html items=page.edit-list %}
+
+[Bases y condiciones](http://rusersgroup.com/join_editor/) para registro como miembro editor.
+
 ## Miembros de R Users Group - Ecuador
 
 * [Alan Zapata](http://www.linkedin/in/alan-zapata-saavedra-767b8455)
@@ -138,3 +144,7 @@ Entre los objetivos de la comunidad de usuarios de R en Ecuador se encuentran lo
 * [Stalin Mauricio Guamán Moromenacho](http://www.linkedin.com/in/SGMStalin)
 * [Willin Alvarez](http://www.linkedin.com/in/willingabrielalvarezirausquin)
 * [Wilson Herrera ](https://www.linkedin.com/in/wilson-alberto-herrera-montaluisa/)
+
+[Únete a la Comunidad.](http://rusersgroup.com/join_editor/)
+
+<b>Grupo de usuarios de en Ecuador</b>
