@@ -1,0 +1,177 @@
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mas-alla-de-la-independencia-estadistica.com" resolutions="1x" timestamp="1527897651978">
+  <folder name="css">
+    <file name="site_global.css" crc="112944842"/>
+    <file name="index.css" crc="77499660" ref="index"/>
+    <file name="nomq_index.css" crc="50435373" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="hover-min.css" crc="3850583018" seo="true" mt="1523880580000"/>
+    <file name="i_jornada_r_cartel_18.jpg" crc="4273490419" seo="true" mt="1526592741000"/>
+    <file name="race-to-the-finish---help-rebuild-our-quake-stricken-chapel!.png" crc="4118161682" seo="true" mt="1527548257000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="340535759" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="4286661555" ref="index"/>
+    <file name="webpro.js" crc="4059564322" ref="index"/>
+    <file name="musewpslideshow.js" crc="3862962738" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="4147669564" ref="index"/>
+    <file name="touchswipe.js" crc="4075097462" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="index"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index"/>
+    <file name="form_check.php" crc="4020933626" ref="index"/>
+    <file name="form_throttle.php" crc="4259590256" ref="index"/>
+    <file name="form_process.php" crc="37464564" ref="index"/>
+    <file name="form-u11218.php" crc="254508484" ref="index"/>
+    <file name="musewpdisclosure.js" crc="3883500470" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="39568856" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="index"/>
+    <file name="require.js" crc="7928878" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="favicon.ico" crc="4033988090" ref="index"/>
+    <file name="cabecera-01.jpg" crc="4134603102" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="cabecera-02.jpg" crc="4128696153" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="cabecera-03.jpg" crc="4252361235" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="flecha-izquierda.png" crc="3975364059" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="flecha-derecha.png" crc="152649081" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="logo.png" crc="4195442896" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="brochure.jpg" crc="4178546232" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="comentarios.jpg" crc="4095268176" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="vmo.jpg" crc="4107476624" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="comentario02.jpg" crc="309863679" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="flores.jpg" crc="4114974741" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="whatsapp image 2018-05-30 at 174350.jpg" crc="4178689274" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="yandira cuvero.jpg" crc="87611956" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="whatsapp image 2018-05-29 at 090727.jpg" crc="307815964" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="quienes-somos.png" crc="336959440" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="que-hacemos.png" crc="482448688" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo-u20626-fr.png" crc="332972104" ref="index"/>
+    <file name="logo_matemática.svg" crc="416547398" ref="index"/>
+    <file name="logo_matemática_poster_u21866.png" crc="375569196" ref="index"/>
+    <file name="rlogo.png" crc="3786781060" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="dgip-u21910-fr.jpg" crc="497458515" ref="index"/>
+    <file name="opciones 4_mesa de trabajo 10 copia.jpg" crc="149577155" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="inicio-normal.png" crc="10135371" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo-u20529-fr.png" crc="248010262" ref="index"/>
+    <file name="menu.png" crc="3935061649" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="cerrado.png" crc="473227605" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="brochure-u7302-fr.jpg" crc="280894903" ref="index"/>
+    <file name="inicio-normal-buttonu21233-fr.png" crc="491921662" ref="index"/>
+  </folder>
+  <file name="index.html" crc="395973328" seo="true" mt="1527897627921" redirect="true"/>
+</manifest>

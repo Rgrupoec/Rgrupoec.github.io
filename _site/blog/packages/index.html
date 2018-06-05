@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>R Tips - Instalación y carga simultánea de librerías</title>
+
+  <meta name="author" content="R Users Group - Ecuador" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="R Users Group - Ecuador - Pagina oficial de R Users Group - Ecuador" href="/feed.xml" />
+
+  
+    
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="R Tips - Instalación y carga simultánea de librerías" />
+  
+
+   
+  <meta property="og:description" content="Instalación y carga de librerías Usar función sin cargar librería Carga e instalación simulatanea Instalación desde otros repositorios Instalación y carga de librerías Si usas R, sabes que una de sus grandes ventajas es la ampliación de sus funcionalidades mediantes paquetes o librerías. Te presentamos varios tips a fin de...">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="http://localhost:4000/blog/packages/" />
+  <link rel="canonical" href="http://localhost:4000/blog/packages/" />
+  
+
+  
+  <meta property="og:image" content="http://localhost:4000/img/final5x5.png" />
+  
+  
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@rusersgroup" />
+  <meta name="twitter:creator" content="@rusersgroup" />
+
+  
+  <meta name="twitter:title" content="R Tips - Instalación y carga simultánea de librerías" />
+  
+
+  
+  <meta name="twitter:description" content="Instalación y carga de librerías Usar función sin cargar librería Carga e instalación simulatanea Instalación desde otros repositorios Instalación y carga de librerías Si usas R, sabes que una de sus grandes ventajas es la ampliación de sus funcionalidades mediantes paquetes o librerías. Te presentamos varios tips a fin de...">
+  
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/img/final5x5.png" />
+  
+
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://localhost:4000">R Users Group - Ecuador</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+            
+
+
+
+
+
+<a href="/jornadasr2018">Jornadas R</a>
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Blog R</a>
+            <div class="navlinks-children">
+              
+                
+                  
+            
+
+
+
+
+
+<a href="/publicaciones">Temario</a>
+
+                
+              
+                
+                  
+            
+
+
+
+
+
+<a href="/tags">Etiquetas</a>
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Servicios</a>
+            <div class="navlinks-children">
+              
+                
+                  
+            
+
+
+
+
+
+<a href="/cursos">Capacitación permanente</a>
+
+                
+              
+                
+                  
+            
+
+
+
+
+
+<a href="/consultoria">Consultoría</a>
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Nosotros</a>
+            <div class="navlinks-children">
+              
+                
+                  
+            
+
+
+
+
+
+<a href="/about">¿Quiénes somos?</a>
+
+                
+              
+                
+                  
+            
+
+
+
+
+
+<a href="/contact">Contacto</a>
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Únete a la comunidad</a>
+            <div class="navlinks-children">
+              
+                
+                  
+            
+
+
+
+
+
+<a href="/join">como miembro</a>
+
+                
+              
+                
+                  
+            
+
+
+
+
+
+<a href="/join_editor">como miembro editor</a>
+
+                
+              
+                
+                  
+            
+
+
+
+
+
+<a href="/consul">como Consultor</a>
+
+                
+              
+            </div>
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="http://localhost:4000 ">
+	      <img class="avatar-img" src="/img/final5x5.png" />
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          <h1>R Tips - Instalación y carga simultánea de librerías</h1>
+		  
+		  
+		  
+		  <span class="post-meta">Publicado el September 25, 2017</span>
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+      	<p><a name="top"></a></p>
+<ul>
+<li><a href="#install">Instalación y carga de librerías</a></li>
+<li><a href="#sin">Usar función sin cargar librería</a></li>
+<li><a href="#simul">Carga e instalación simulatanea</a></li>
+<li><a href="#repos">Instalación desde otros repositorios</a></li>
+</ul>
+<hr />
+
+<div id="instalacion-y-carga-de-librerias" class="section level1">
+<h1><a name="install"></a>Instalación y carga de librerías</h1>
+<p>Si usas R, sabes que una de sus grandes ventajas es la ampliación de sus funcionalidades mediantes paquetes o librerías.</p>
+<p>Te presentamos varios tips a fin de acelerar el proceso de instalación y carga de tus librerías.</p>
+<p>Instalación normal</p>
+<pre><code>install.packages(&quot;xts&quot;)</code></pre>
+<p>Instalación normal con todas sus dependencias</p>
+<pre><code>install.packages(&quot;dplyr&quot;, dependencies = T)</code></pre>
+<p>Si por alguna razón necesitamos los paquetes en zip los guardamos con el argumento destdir.</p>
+<pre><code>install.packages(&quot;ineq&quot;, destdir = &quot;C:/temp&quot;)</code></pre>
+<p>Lo cual también aplica para descargar un paquete con todas sus dependencias.</p>
+<pre><code>install.packages(&quot;tm&quot;, dependencies = T, destdir = &quot;C:/temp&quot;)
+Installing package into �C:/Users/crbdl/Documents/R/win-library/3.4�
+(as �lib� is unspecified)
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.4/ineq_0.2-13.zip'
+Content type 'application/zip' length 67130 bytes (65 KB)
+downloaded 65 KB
+package ‘ineq’ successfully unpacked and MD5 sums checked
+Installing package into �C:/Users/crbdl/Documents/R/win-library/3.4�
+(as �lib� is unspecified)
+Warning in install.packages :
+dependencies ‘Rcampdf’, ‘Rgraphviz’, ‘Rpoppler’, ‘tm.lexicon.GeneralInquirer’ are not available
+also installing the dependencies �NLP�, �slam�, �filehash�, �SnowballC�, �XML�
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.4/NLP_0.1-11.zip'
+Content type 'application/zip' length 293996 bytes (287 KB)
+downloaded 287 KB
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.4/slam_0.1-40.zip'
+Content type 'application/zip' length 118237 bytes (115 KB)
+downloaded 115 KB
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.4/filehash_2.4-1.zip'
+Content type 'application/zip' length 275509 bytes (269 KB)
+downloaded 269 KB
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.4/SnowballC_0.5.1.zip'
+Content type 'application/zip' length 3082209 bytes (2.9 MB)
+downloaded 2.9 MB
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.4/XML_3.98-1.9.zip'
+Content type 'application/zip' length 4323674 bytes (4.1 MB)
+downloaded 4.1 MB
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.4/tm_0.7-1.zip'
+Content type 'application/zip' length 1274636 bytes (1.2 MB)
+downloaded 1.2 MB
+package ‘NLP’ successfully unpacked and MD5 sums checked
+package ‘slam’ successfully unpacked and MD5 sums checked
+package ‘filehash’ successfully unpacked and MD5 sums checked
+package ‘SnowballC’ successfully unpacked and MD5 sums checked
+package ‘XML’ successfully unpacked and MD5 sums checked
+package ‘tm’ successfully unpacked and MD5 sums checked</code></pre>
+<p>Una vez que hayas instalado un paquete debes cargarlo para poder usas sus funciones o información.</p>
+<p>Carga normal</p>
+<pre><code>library(dplyr)
+require(dplyr)</code></pre>
+<p>Ambas funciones cumplen la función de carga, pero ¿en que se diferencian?</p>
+<p>La principal diferencia entre estas funciones es:</p>
+<p>Por defecto, library() devuelve un error si el paquete solicitado no existe.</p>
+<pre><code>library(abcd)
+Error in library(abcd) : there is no package called ‘abcd’</code></pre>
+<p>Mientras requiere() da una advertencia.</p>
+<pre class="r"><code>require(abcd)</code></pre>
+<pre><code>## Loading required package: abcd</code></pre>
+<pre><code>## Warning in library(package, lib.loc = lib.loc, character.only = TRUE,
+## logical.return = TRUE, : there is no package called 'abcd'</code></pre>
+<p>require () está diseñado para ser utilizado dentro de funciones, ya que da un mensaje de advertencia y devuelve un valor lógico decir, FALSE si el paquete solicitado no se encuentra y TRUE si el paquete está cargado.</p>
+<pre class="r"><code>ifelse(require(dplyr)==T, &quot;Cargado&quot;, &quot;No cargado&quot;)</code></pre>
+<pre><code>## Loading required package: dplyr</code></pre>
+<pre><code>## 
+## Attaching package: 'dplyr'</code></pre>
+<pre><code>## The following objects are masked from 'package:stats':
+## 
+##     filter, lag</code></pre>
+<pre><code>## The following objects are masked from 'package:base':
+## 
+##     intersect, setdiff, setequal, union</code></pre>
+<pre><code>## [1] &quot;Cargado&quot;</code></pre>
+<pre class="r"><code># 0=FALSE
+
+sum(require(abcd))</code></pre>
+<pre><code>## Loading required package: abcd</code></pre>
+<pre><code>## Warning in library(package, lib.loc = lib.loc, character.only = TRUE,
+## logical.return = TRUE, : there is no package called 'abcd'</code></pre>
+<pre><code>## [1] 0</code></pre>
+<p>La mejor opción es utilizar <strong>library()</strong>, ya que da el mensaje de error si el paquete no se encuentra durante el tiempo de carga del paquete, lo cual nos dará una alerta temprana y evitará continuar generando errores innecesarios.</p>
+<p><a href="#top">Back to Top</a></p>
+</div>
+<div id="usar-funcion-sin-cargar-librería" class="section level1">
+<h1><a name="sin"></a>Usar función sin cargar librería</h1>
+<p>Podemos utilizar una función de un paquete sin cargarlo, cargando únicamente dicha función de la siguiente forma:</p>
+<pre class="r"><code>rpart::car.test.frame</code></pre>
+<pre><code>##                               Price   Country Reliability Mileage    Type
+## Eagle Summit 4                 8895       USA           4      33   Small
+## Ford Escort   4                7402       USA           2      33   Small
+## Ford Festiva 4                 6319     Korea           4      37   Small
+## Honda Civic 4                  6635 Japan/USA           5      32   Small
+## Mazda Protege 4                6599     Japan           5      32   Small
+## Mercury Tracer 4               8672    Mexico           4      26   Small
+## Nissan Sentra 4                7399 Japan/USA           5      33   Small
+## Pontiac LeMans 4               7254     Korea           1      28   Small
+## Subaru Loyale 4                9599     Japan           5      25   Small
+## Subaru Justy 3                 5866     Japan          NA      34   Small
+## Toyota Corolla 4               8748 Japan/USA           5      29   Small
+## Toyota Tercel 4                6488     Japan           5      35   Small
+## Volkswagen Jetta 4             9995   Germany           3      26   Small
+## Chevrolet Camaro V8           11545       USA           1      20  Sporty
+## Dodge Daytona                  9745       USA           1      27  Sporty
+## Ford Mustang V8               12164       USA           1      19  Sporty
+## Ford Probe                    11470       USA           3      30  Sporty
+## Honda Civic CRX Si 4           9410     Japan           5      33  Sporty
+## Honda Prelude Si 4WS 4        13945     Japan           5      27  Sporty
+## Nissan 240SX 4                13249     Japan           3      24  Sporty
+## Plymouth Laser                10855       USA          NA      26  Sporty
+## Subaru XT 4                   13071     Japan          NA      28  Sporty
+## Audi 80 4                     18900   Germany          NA      27 Compact
+## Buick Skylark 4               10565       USA           2      23 Compact
+## Chevrolet Beretta 4           10320       USA           1      26 Compact
+## Chrysler Le Baron V6          10945       USA           4      25 Compact
+## Ford Tempo 4                   9483       USA           2      24 Compact
+## Honda Accord 4                12145 Japan/USA           5      26 Compact
+## Mazda 626 4                   12459 Japan/USA           4      24 Compact
+## Mitsubishi Galant 4           10989     Japan           5      25 Compact
+## Mitsubishi Sigma V6           17879     Japan           4      21 Compact
+## Nissan Stanza 4               11650     Japan           5      21 Compact
+## Oldsmobile Calais 4            9995       USA           2      23 Compact
+## Peugeot 405 4                 15930    France          NA      24 Compact
+## Subaru Legacy 4               11499 Japan/USA           5      23 Compact
+## Toyota Camry 4                11588 Japan/USA           5      27 Compact
+## Volvo 240 4                   18450    Sweden           3      23 Compact
+## Acura Legend V6               24760     Japan           5      20  Medium
+## Buick Century 4               13150       USA           3      21  Medium
+## Chrysler Le Baron Coupe       12495       USA           2      22  Medium
+## Chrysler New Yorker V6        16342       USA           3      22  Medium
+## Eagle Premier V6              15350       USA           2      22  Medium
+## Ford Taurus V6                13195       USA           3      22  Medium
+## Ford Thunderbird V6           14980       USA           1      23  Medium
+## Hyundai Sonata 4               9999     Korea          NA      23  Medium
+## Mazda 929 V6                  23300     Japan           5      21  Medium
+## Nissan Maxima V6              17899     Japan           5      22  Medium
+## Oldsmobile Cutlass Ciera 4    13150       USA           2      21  Medium
+## Oldsmobile Cutlass Supreme V6 14495       USA          NA      21  Medium
+## Toyota Cressida 6             21498     Japan           3      23  Medium
+## Buick Le Sabre V6             16145       USA           3      23   Large
+## Chevrolet Caprice V8          14525       USA           1      18   Large
+## Ford LTD Crown Victoria V8    17257       USA           3      20   Large
+## Chevrolet Lumina APV V6       13995       USA          NA      18     Van
+## Dodge Grand Caravan V6        15395       USA           3      18     Van
+## Ford Aerostar V6              12267       USA           3      18     Van
+## Mazda MPV V6                  14944     Japan           5      19     Van
+## Mitsubishi Wagon 4            14929     Japan          NA      20     Van
+## Nissan Axxess 4               13949     Japan          NA      20     Van
+## Nissan Van 4                  14799     Japan          NA      19     Van
+##                               Weight Disp.  HP
+## Eagle Summit 4                  2560    97 113
+## Ford Escort   4                 2345   114  90
+## Ford Festiva 4                  1845    81  63
+## Honda Civic 4                   2260    91  92
+## Mazda Protege 4                 2440   113 103
+## Mercury Tracer 4                2285    97  82
+## Nissan Sentra 4                 2275    97  90
+## Pontiac LeMans 4                2350    98  74
+## Subaru Loyale 4                 2295   109  90
+## Subaru Justy 3                  1900    73  73
+## Toyota Corolla 4                2390    97 102
+## Toyota Tercel 4                 2075    89  78
+## Volkswagen Jetta 4              2330   109 100
+## Chevrolet Camaro V8             3320   305 170
+## Dodge Daytona                   2885   153 100
+## Ford Mustang V8                 3310   302 225
+## Ford Probe                      2695   133 110
+## Honda Civic CRX Si 4            2170    97 108
+## Honda Prelude Si 4WS 4          2710   125 140
+## Nissan 240SX 4                  2775   146 140
+## Plymouth Laser                  2840   107  92
+## Subaru XT 4                     2485   109  97
+## Audi 80 4                       2670   121 108
+## Buick Skylark 4                 2640   151 110
+## Chevrolet Beretta 4             2655   133  95
+## Chrysler Le Baron V6            3065   181 141
+## Ford Tempo 4                    2750   141  98
+## Honda Accord 4                  2920   132 125
+## Mazda 626 4                     2780   133 110
+## Mitsubishi Galant 4             2745   122 102
+## Mitsubishi Sigma V6             3110   181 142
+## Nissan Stanza 4                 2920   146 138
+## Oldsmobile Calais 4             2645   151 110
+## Peugeot 405 4                   2575   116 120
+## Subaru Legacy 4                 2935   135 130
+## Toyota Camry 4                  2920   122 115
+## Volvo 240 4                     2985   141 114
+## Acura Legend V6                 3265   163 160
+## Buick Century 4                 2880   151 110
+## Chrysler Le Baron Coupe         2975   153 150
+## Chrysler New Yorker V6          3450   202 147
+## Eagle Premier V6                3145   180 150
+## Ford Taurus V6                  3190   182 140
+## Ford Thunderbird V6             3610   232 140
+## Hyundai Sonata 4                2885   143 110
+## Mazda 929 V6                    3480   180 158
+## Nissan Maxima V6                3200   180 160
+## Oldsmobile Cutlass Ciera 4      2765   151 110
+## Oldsmobile Cutlass Supreme V6   3220   189 135
+## Toyota Cressida 6               3480   180 190
+## Buick Le Sabre V6               3325   231 165
+## Chevrolet Caprice V8            3855   305 170
+## Ford LTD Crown Victoria V8      3850   302 150
+## Chevrolet Lumina APV V6         3195   151 110
+## Dodge Grand Caravan V6          3735   202 150
+## Ford Aerostar V6                3665   182 145
+## Mazda MPV V6                    3735   181 150
+## Mitsubishi Wagon 4              3415   143 107
+## Nissan Axxess 4                 3185   146 138
+## Nissan Van 4                    3690   146 106</code></pre>
+<p><a href="#top">Back to Top</a></p>
+</div>
+<div id="carga-e-instalacion-simultanea" class="section level1">
+<h1><a name="simul"></a>Carga e instalación simultánea</h1>
+<p>Carga de varios paquetes en una lìnea. En este caso usamos require ya que nos devuelve un valor lógico.</p>
+<pre class="r"><code>p &lt;- c(&quot;dplyr&quot;, &quot;tm&quot;)
+sapply(p, require, character.only = TRUE)              </code></pre>
+<pre><code>## Loading required package: tm</code></pre>
+<pre><code>## Loading required package: NLP</code></pre>
+<pre><code>## dplyr    tm 
+##  TRUE  TRUE</code></pre>
+<p>Usamos una función del paquete <strong>tm</strong> para comprobar su carga.</p>
+<pre class="r"><code>removeNumbers(&quot;R 1 Users 2 Group 3- Ecuador&quot;)</code></pre>
+<pre><code>## [1] &quot;R  Users  Group - Ecuador&quot;</code></pre>
+<p>También podemos instalar varios paquetes en una línea con la forma anterior cambiando la función por <strong>install.packages()</strong>, pero en su lugar vamos a usar paquetes adicionales.</p>
+<p><strong>easypackages</strong> permite cargar e instalar varios paquetes con las funciones libraries() y packages() respectivamente.</p>
+<pre class="r"><code>#install.packages(&quot;easypackages&quot;)
+library(&quot;easypackages&quot;)
+paq &lt;- c(&quot;raster&quot;, &quot;git2r&quot;)
+libraries(paq)</code></pre>
+<pre><code>## Loading required package: raster</code></pre>
+<pre><code>## Loading required package: sp</code></pre>
+<pre><code>## 
+## Attaching package: 'raster'</code></pre>
+<pre><code>## The following object is masked from 'package:dplyr':
+## 
+##     select</code></pre>
+<pre><code>## Loading required package: git2r</code></pre>
+<pre><code>## 
+## Attaching package: 'git2r'</code></pre>
+<pre><code>## The following object is masked from 'package:raster':
+## 
+##     init</code></pre>
+<pre><code>## The following object is masked from 'package:NLP':
+## 
+##     content</code></pre>
+<pre><code>## The following object is masked from 'package:dplyr':
+## 
+##     pull</code></pre>
+<pre><code>## All packages loaded successfully</code></pre>
+<p>Si algún paquete ya existe no lo vuelve a instalar, solamente instala los faltantes.</p>
+<pre><code>paq &lt;- c(&quot;ggplot2&quot;, &quot;flexdashboard&quot;)
+packages(paq)
+The following package is not installed: flexdashboard
+Would you like to install this package now? [y/n]
+1: y
+Installing package into �C:/Users/crbdl/Documents/R/win-library/3.4�
+(as �lib� is unspecified)
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.4/flexdashboard_0.5.zip'
+Content type 'application/zip' length 649070 bytes (633 KB)
+downloaded 633 KB
+package ‘flexdashboard’ successfully unpacked and MD5 sums checked
+The downloaded binary packages are in
+C:\Users\crbdl\AppData\Local\Temp\RtmpK6QNvA\downloaded_packages
+All packages installed successfully
+Loading required package: ggplot2
+Attaching package: �ggplot2�
+The following objects are masked from �package:psych�:
+%+%, alpha
+Loading required package: flexdashboard
+All packages loaded successfully</code></pre>
+<p><strong>lubripack</strong> permite cargar e instalar varios paquetes a la vez y nos devuelve valores lógicos si la carga o instalación se realizan correctamente.</p>
+<pre><code>install.packages(&quot;lubripack&quot;)</code></pre>
+<p>Ya que no está actualizado el paquete para mi versión de R no puedo instalarla directamente del CRAN, pero al ser una función pequeña la copio:</p>
+<pre class="r"><code>lubripack &lt;- function(...,silent=FALSE){
+        
+        #check names and run 'require' function over if the given package is installed
+        requirePkg&lt;- function(pkg){if(length(setdiff(pkg,rownames(installed.packages())))==0)
+                require(pkg, quietly = TRUE,character.only = TRUE)
+        }
+        
+        # list of packages to install and load
+        packages &lt;- as.vector(unlist(list(...)))
+        if(!is.character(packages))stop(&quot;No numeric allowed! Input must contain package names to install and load&quot;)
+        
+        if (length(setdiff(packages,rownames(installed.packages()))) &gt; 0 )
+                install.packages(setdiff(packages,rownames(installed.packages())),
+                                 repos = c(&quot;https://cran.revolutionanalytics.com/&quot;, &quot;http://owi.usgs.gov/R/&quot;))
+        
+        res&lt;- unlist(sapply(packages, requirePkg))
+        
+        if(silent == FALSE &amp;&amp; !is.null(res)) {cat(&quot;\nBellow Packages Successfully Installed:\n\n&quot;)
+                print(res)
+        }
+}</code></pre>
+<p>Esta función permite cargar paquetes declarados en un vector y no se han instalado, se instalan desde el CRAN o desde OWI y devuelve valores lógicos.</p>
+<pre><code>c(paq,&quot;ggvis&quot;) -&gt; varios
+lubripack(varios)
+Installing package into �C:/Users/crbdl/Documents/R/win-library/3.4�
+(as �lib� is unspecified)
+trying URL 'https://cran.revolutionanalytics.com/bin/windows/contrib/3.4/ggvis_0.4.3.zip'
+Content type 'application/zip' length 959625 bytes (937 KB)
+downloaded 937 KB
+package ‘ggvis’ successfully unpacked and MD5 sums checked
+The downloaded binary packages are in
+C:\Users\crbdl\AppData\Local\Temp\RtmpK6QNvA\downloaded_packages
+Attaching package: �ggvis�
+The following object is masked from �package:ggplot2�:
+resolution</code></pre>
+<p>Bellow Packages Successfully Installed:</p>
+<pre><code>  ggplot2 flexdashboard         ggvis 
+     TRUE          TRUE          TRUE </code></pre>
+<p>El paquete <strong>pacman</strong> permite cargar e instalar varios paquetes a la vez con sus funciones p_load y p_install respectivamente.</p>
+<pre class="r"><code>#install.packages(&quot;pacman&quot;)
+library(&quot;pacman&quot;)
+p_load(dplyr, psych, tm) 
+
+p_install(NLP)</code></pre>
+<pre><code>## The following packages have been unloaded:
+## NLP</code></pre>
+<pre><code>## Installing package into 'C:/Users/crbdl/Documents/R/win-library/3.3'
+## (as 'lib' is unspecified)</code></pre>
+<pre><code>## package 'NLP' successfully unpacked and MD5 sums checked
+## 
+## The downloaded binary packages are in
+##  C:\Users\crbdl\AppData\Local\Temp\RtmpUnc4w1\downloaded_packages</code></pre>
+<pre><code>## 
+## NLP installed</code></pre>
+<p><a href="#top">Back to Top</a></p>
+</div>
+<div id="instalacion-desde-otros-repositorios" class="section level1">
+<h1><a name="repos"></a>Instalación desde otros repositorios</h1>
+<p>Por defecto descargamos desde CRAN, pero no son las únicas opciones, tenemos varios repositorios como GRAN, MRAN, Bioconductor, Github, etc.</p>
+<p>Para descargar paquetes desde estos repositorios podemos usar la función install.packages() con el argumento repos:</p>
+<pre><code>install.packages(&quot;smwrData&quot;, repos=c(&quot;https://owi.usgs.gov/R&quot;,getOption(&quot;repos&quot;)))
+Installing package into �C:/Users/crbdl/Documents/R/win-library/3.4�
+(as �lib� is unspecified)
+trying URL 'https://owi.usgs.gov/R/bin/windows/contrib/3.4/smwrData_1.1.2.zip'
+Content type 'application/x-zip-compressed' length 351710 bytes (343 KB)
+downloaded 343 KB
+package ‘smwrData’ successfully unpacked and MD5 sums checked
+The downloaded binary packages are in
+C:\Users\crbdl\AppData\Local\Temp\RtmpK6QNvA\downloaded_packages
+library(smwrData)</code></pre>
+<p>Para descargar desde github podemos usar la función install_git().</p>
+<pre class="r"><code>library(devtools)
+install_git(&quot;git://github.com/hadley/stringr.git&quot;)</code></pre>
+<pre><code>## Downloading git repo git://github.com/hadley/stringr.git</code></pre>
+<pre><code>## Installing stringr</code></pre>
+<pre><code>## &quot;C:/PROGRA~1/R/R-33~1.3/bin/x64/R&quot; --no-site-file --no-environ --no-save  \
+##   --no-restore --quiet CMD INSTALL  \
+##   &quot;C:/Users/crbdl/AppData/Local/Temp/RtmpUnc4w1/fileddc35ab6f3&quot;  \
+##   --library=&quot;C:/Users/crbdl/Documents/R/win-library/3.3&quot; --install-tests</code></pre>
+<pre><code>## </code></pre>
+<p>Desde bioconductor</p>
+<pre><code>source(&quot;https://bioconductor.org/biocLite.R&quot;)
+biocLite(c(&quot;survival&quot;))
+BioC_mirror: https://bioconductor.org
+Using Bioconductor 3.5 (BiocInstaller 1.26.1), R 3.4.1 (2017-06-30).
+Installing package(s) �survival�
+cannot open URL 'https://bioconductor.org/packages/3.5/data/annotation/bin/windows/contrib/3.4/PACKAGES.rds': HTTP status was '404 Not             Found'cannot open URL 'https://bioconductor.org/packages/3.5/data/experiment/bin/windows/contrib/3.4/PACKAGES.rds': HTTP status was '404 Not       Found'trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.4/survival_2.41-3.zip'
+Content type 'application/zip' length 5427811 bytes (5.2 MB)
+downloaded 5.2 MB
+package ‘survival’ successfully unpacked and MD5 sums checked
+The downloaded binary packages are in
+C:\Users\crbdl\AppData\Local\Temp\RtmpK6QNvA\downloaded_packages
+installation path not writeable, unable to update packages: BH, boot, car, caret, crayon, curl, DBI, dplyr, evaluate, foreign, glmnet,
+haven, htmlwidgets, httpuv, httr, knitr, Matrix, mgcv, modelr, openssl, PKI, psych, purrr, quantmod, R6, Rcpp, repr, rlang, rmarkdown,
+rsconnect, rstudioapi, scales, shiny, tibble, tidyr, TTR, xts
+Old packages: 'backports'
+Update all/some/none? [a/s/n]: </code></pre>
+</div>
+
+      </article>
+      
+      
+        <div class="blog-tags">
+          Tags: R Tips
+        </div>
+      
+
+      
+      
+        <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+
+  <!--- Share on Twitter -->
+  
+    <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/blog/packages/"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fa fa-fw fa-twitter" aria-hidden="true"></span>
+    </a>
+  
+
+  <!--- Share on Facebook -->
+  
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/blog/packages/"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fa fa-fw fa-facebook" aria-hidden="true"></span>
+    </a>
+  
+
+  <!--- Share on Google Plus -->
+  
+    <a href="https://plus.google.com/share?url=http://localhost:4000/blog/packages/"
+      class="btn btn-social-icon btn-google" title="Share on Google+">
+      <span class="fa fa-fw fa-google-plus" aria-hidden="true"></span>
+    </a>
+  
+
+  <!--- Share on LinkedIn -->
+  
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/blog/packages/"
+      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      <span class="fa fa-fw fa-linkedin" aria-hidden="true"></span>
+    </a>
+  
+
+</section>
+
+
+
+      
+
+      <ul class="pager blog-pager">
+        
+          <li class="previous">
+            <a href="/blog/datasciencemeetup/" data-toggle="tooltip" data-placement="top" title="II Encuentro de Cientificos de Datos">&larr; Previous Post</a>
+          </li>
+        
+        
+          <li class="next">
+            <a href="/blog/exportar_excel/" data-toggle="tooltip" data-placement="top" title="R Tips - Reportería en excel con R y xlsx">Next Post &rarr;</a>
+          </li>
+        
+      </ul>
+
+      
+        <div class="disqus-comments">
+          
+<div class="comments">
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+	    var disqus_shortname = 'rusersgroup-com';
+	    // ensure that pages with query string or anchor get the same discussion
+            var url_parts = window.location.href.split("?");
+            url_parts = url_parts[0].split("#");
+            disqus_url = url_parts[0];
+            disqus_url = disqus_url.replace(/(\/)*$/, "/"); // make sure the URL ends with one slash
+            
+            // Jekyll 3 caused so many bugs, I'm tired of fixing them one by one properly, so I'll just hack it...
+            // https://github.com/jekyll/jekyll/issues/4483
+            // The projects page now has a trailing slash, it didn't used to
+            if (disqus_url.substr(-9) == "projects/") {
+            	disqus_url = disqus_url.substr(0, disqus_url.length - 1);
+            }
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+
+        </div>
+      
+      
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+          <li>
+            <a href="https://www.facebook.com/groups/rusersgroup" title="Facebook">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li>
+            <a href="https://github.com/rusersgroup" title="GitHub">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+		  
+          <li>
+            <a href="https://twitter.com/rusersgroup" title="Twitter">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+		  
+          <li>
+            <a href="mailto:info@rusersgroup.com" title="Email me">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+		  
+		  
+		  		  
+        </ul>
+        <p class="copyright text-muted">
+		  R Users Group - Ecuador
+		  &nbsp;&bull;&nbsp;
+		  2018
+		  
+		  
+	    </p>
+	
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    <!-- everything has to be repeated twice because on 2016-02-01 GitHub pages migrated to jekyll 3; see bug https://github.com/jekyll/jekyll/issues/4439 -->
+
+
+
+
+
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/main.js"></script>
+    
+  
+
+
+
+
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-102304043-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+
+
+  
+  </body>
+</html>

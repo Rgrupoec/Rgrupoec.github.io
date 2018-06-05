@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Cloud Computing - R en la nube!</title>
+
+  <meta name="author" content="R Users Group - Ecuador" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="R Users Group - Ecuador - Pagina oficial de R Users Group - Ecuador" href="/feed.xml" />
+
+  
+    
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="Cloud Computing - R en la nube!" />
+  
+
+   
+  <meta property="og:description" content="Te mostramos varias opciones para usar la consola de R en línea como un primer acercamiento al Cloud Computing. Pero ¿Qué es cloud computing? Cloud computing puede definirse como un modelo de computación en el cual el hardware y software necesarios para prestar un servicio residen en centros de datos...">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="http://localhost:4000/blog/r_nube/" />
+  <link rel="canonical" href="http://localhost:4000/blog/r_nube/" />
+  
+
+  
+  <meta property="og:image" content="http://localhost:4000/img/final5x5.png" />
+  
+  
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@rusersgroup" />
+  <meta name="twitter:creator" content="@rusersgroup" />
+
+  
+  <meta name="twitter:title" content="Cloud Computing - R en la nube!" />
+  
+
+  
+  <meta name="twitter:description" content="Te mostramos varias opciones para usar la consola de R en línea como un primer acercamiento al Cloud Computing. Pero ¿Qué es cloud computing? Cloud computing puede definirse como un modelo de computación en el cual el hardware y software necesarios para prestar un servicio residen en centros de datos...">
+  
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/img/final5x5.png" />
+  
+
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://localhost:4000">R Users Group - Ecuador</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+            
+
+
+
+
+
+<a href="/jornadasr2018">Jornadas R</a>
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Blog R</a>
+            <div class="navlinks-children">
+              
+                
+                  
+            
+
+
+
+
+
+<a href="/publicaciones">Temario</a>
+
+                
+              
+                
+                  
+            
+
+
+
+
+
+<a href="/tags">Etiquetas</a>
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Servicios</a>
+            <div class="navlinks-children">
+              
+                
+                  
+            
+
+
+
+
+
+<a href="/cursos">Capacitación permanente</a>
+
+                
+              
+                
+                  
+            
+
+
+
+
+
+<a href="/consultoria">Consultoría</a>
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Nosotros</a>
+            <div class="navlinks-children">
+              
+                
+                  
+            
+
+
+
+
+
+<a href="/about">¿Quiénes somos?</a>
+
+                
+              
+                
+                  
+            
+
+
+
+
+
+<a href="/contact">Contacto</a>
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Únete a la comunidad</a>
+            <div class="navlinks-children">
+              
+                
+                  
+            
+
+
+
+
+
+<a href="/join">como miembro</a>
+
+                
+              
+                
+                  
+            
+
+
+
+
+
+<a href="/join_editor">como miembro editor</a>
+
+                
+              
+                
+                  
+            
+
+
+
+
+
+<a href="/consul">como Consultor</a>
+
+                
+              
+            </div>
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="http://localhost:4000 ">
+	      <img class="avatar-img" src="/img/final5x5.png" />
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          <h1>Cloud Computing - R en la nube!</h1>
+		  
+		  
+		  
+		  <span class="post-meta">Publicado el July 15, 2017</span>
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+      	<p>Te mostramos varias opciones para usar la consola de R en línea como un primer acercamiento al Cloud Computing.</p>
+
+<h2 id="pero-qué-es-cloud-computing">Pero ¿Qué es cloud computing?</h2>
+<p>Cloud computing puede definirse como un modelo de computación en el cual el hardware y software necesarios para prestar un servicio residen en centros de datos accesibles desde cualquier punto de Internet. Así, los datos y los recursos pasan de estar en nuestros ordenadores a estar “en la nube”.</p>
+
+<p>Siendo más específicos, de acuerdo al NIST (National Institute of Standards and Technology, de la Oficina de Comercio de Estados Unidos), para hablar de cloud computing han de cumplirse cinco características fundamentales:</p>
+
+<ul>
+  <li>Capacidad para incrementar y reducir rápidamente los recursos</li>
+  <li>Pago por uso realizado</li>
+  <li>Posibilidad de utilizar los servicios cloud sin interacción humana con el proveedor</li>
+  <li>Acceso desde cualquier parte a través de Internet</li>
+  <li>Compartir recursos físicos y virtuales del proveedor de acuerdo a la demanda del cliente</li>
+</ul>
+
+<p>Las modalidades más difundidas de cloud son:</p>
+
+<p>Software como servicio (SaaS, Software As A Service)
+Consiste en la distribución de software donde una empresa proporciona el mantenimiento, soporte y operación que usará el cliente durante el tiempo que haya contratado el servicio. Ejemplos: GMail, Google Docs, Amazon S3, etc.</p>
+
+<p>Plataforma como servicio (PaaS, Platform As A Service)
+Su principal uso se centra en ofrecer una solución completa para la construcción y puesta en marcha de aplicaciones y servicios Web que estarán completamente disponibles a través de Internet. Algunos ejemplos: Google App Engine, Amazon SimpleDB, etc.</p>
+
+<p>Infraestructura como servicio (IaaS, Infrastructure As A Service)
+Proporciona al cliente una infraestructura de computación como un servicio, usando principalmente la virtualización. El cliente compra recursos a un proveedor externo, para hosting, capacidad de cómputo, mantenimiento y gestión de redes, etc. Ejemplos: Amazon EC2, Azure de Microsoft, etc.</p>
+
+<p><img src="/img/publicaciones/2017-07-15-sass.png" alt="" /></p>
+
+<p>Sin embargo hemos de tener en cuenta que estamos todavía en las etapas iniciales del desarrollo del cloud y que cada día están surgiendo nuevas modalidades de servicios, que extienden cada vez más el ámbito del cloud hasta llegar a zonas difusas donde realmente no se les podría denominar cloud computing de acuerdo a los criterios del NIST.</p>
+
+<p>Se trata de un entorno muy dinámico, en el que no se sabe cuáles serán los servicios que se van a consolidar y tener éxito en el mercado. Confluyen en él grandes proveedores (empresas de Internet, fabricantes de software y hardware, consultoras, operadores de telecomunicaciones), que están haciendo enormes inversiones, con todo tipo de pequeños y medianos desarrolladores de aplicaciones.</p>
+
+<p>El cloud es una tecnología que hay que tener en cuenta, ya que existe un consenso generalizado en el sector de que se trata de un nuevo paradigma que está cambiando la forma en que utilizamos y gestionamos las TI y que va a tener una gran repercusión en los próximos años.</p>
+
+<h2 id="consola-de-r-en-línea">Consola de R en línea</h2>
+<hr />
+
+<h2 id="r-fiddle">R-fiddle</h2>
+<p>Consola de R interactiva desde tu explorador, sencilla y útil.</p>
+
+<p><a href="http://www.r-fiddle.org/">r-fiddle</a></p>
+<iframe width="120%" height="700" src="http://r-fiddle.org/#/embed/eYsWfghB/1" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+<h2 id="codingground">Codingground</h2>
+<p>Consola de R interactiva desde tu explorador con mayores opciones, permite ingresar al terminal del servidor.</p>
+
+<p><a href="https://www.tutorialspoint.com//execute_r_online.php">Codingground</a>
+<img src="https://raw.githubusercontent.com/Rgrupoec/Rgrupoec.github.io/master/img/publicaciones/2017-07-15-codinggroup.gif" alt="" /></p>
+
+<h2 id="datajoy-y-r-on-cloud-ya-no-están-en-funcionamiento">DataJoy y R on cloud ya no están en funcionamiento.</h2>
+<p>Estas 2 herramientas dejaron de estar en funcionamiento a inicios de 2017.</p>
+
+<h2 id="jupyter-notebook">Jupyter Notebook</h2>
+<p>Aplicación web de código abierto que permite crear y compartir documentos que contienen código en vivo, ecuaciones, visualizaciones y texto explicativo. Los usos incluyen: limpieza y transformación de datos, simulación numérica, modelado estadístico, aprendizaje automático y mucho más.
+Además, permite integración R, Python, Julia, Haskell, Ruby entre otros.</p>
+
+<p><a href="https://try.jupyter.org/">jupyter</a>
+<img src="https://raw.githubusercontent.com/Rgrupoec/Rgrupoec.github.io/master/img/publicaciones/2017-07-15-jupyter.gif" alt="" /></p>
+
+<h1 id="r-en-la-nube-para-aprendizaje">R en la nube para aprendizaje</h1>
+
+<h2 id="codeschool">CodeSchool</h2>
+<p>Plataforma de aprendizaje de varios lenguajes de programación y herramientas para ciencia de datos.
+Code School enseña tecnologías web con lecciones de video, desafíos de codificación y screencasts. 
+Su lema es aprender haciendo.</p>
+
+<p>Buena opción si eres nuevo en R.
+El curso tiene 7 niveles en los cuales se muestra el manejo de la consola, expresiones regulares, variables, funciones, vectores, matrices, dataframes, etc.</p>
+
+<p><a href="https://www.codeschool.com/courses/try-r">CodeSchool - Try R</a>
+<img src="https://raw.githubusercontent.com/Rgrupoec/Rgrupoec.github.io/master/img/publicaciones/2017-07-15-codeschool.gif" alt="" /></p>
+
+<h2 id="datacamp">Datacamp</h2>
+<p>Plataforma de aprendizaje de varios lenguajes de programación y herramientas para ciencia de datos.
+Code School enseña tecnologías web con lecciones de video, desafíos de codificación y screencasts. 
+Ideal para aprender haciendo.</p>
+
+<p><a href="https://campus.datacamp.com/courses/free-introduction-to-r/">DataCamp - Introduction to R</a>
+<img src="https://raw.githubusercontent.com/Rgrupoec/Rgrupoec.github.io/master/img/publicaciones/2017-07-15-datacamp.gif" alt="" /></p>
+
+<h2 id="swirl">swirl</h2>
+<p>Swirl es un paquete creado para enseñar el lenguaje de programación R, pero desde tu computador, en sí no debería estar en esta publicación sobre R en la nube, pero dado que está muy ligado a los objetivos de Datacamp y Codeschool lo añadimos.
+Aprende R, en R.</p>
+
+<p><a href="http://swirlstats.com/">swirl</a>
+<img src="https://raw.githubusercontent.com/Rgrupoec/Rgrupoec.github.io/master/img/publicaciones/2017-07-15-swirl.gif" alt="" /></p>
+
+<blockquote>
+  <p><strong>Nota:</strong></p>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li>Si quieres convertirte en científico de datos y ser un experto en Clooud Computing no puedes no pasar por:</li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li><a href="https://www.coursera.org/">Coursera</a></li>
+    <li><a href="https://www.edx.org/">edx</a></li>
+    <li><a href="https://www.khanacademy.org/">khanacademy</a></li>
+    <li><a href="https://www.codecademy.com">codeacademy</a></li>
+    <li><a href="https://www.lynda.com">lynda</a></li>
+    <li><a href="https://www.futurelearn.com">futurelearn</a></li>
+    <li><a href="https://www.canvas.net">canvas.net</a></li>
+    <li><a href="https://www.udacity.com/">udacity</a></li>
+    <li><a href="https://miriadax.net">Miríadax</a></li>
+  </ul>
+</blockquote>
+
+<p><br />
+En futuras publicaciones abordaremos una extensión a estas herramientas con Cloud Computing de pago como Azure, Google Platform, AWS y gratuitas como 9cloud.</p>
+
+      </article>
+      
+      
+        <div class="blog-tags">
+          Tags: R, nube
+        </div>
+      
+
+      
+      
+        <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+
+  <!--- Share on Twitter -->
+  
+    <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/blog/r_nube/"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fa fa-fw fa-twitter" aria-hidden="true"></span>
+    </a>
+  
+
+  <!--- Share on Facebook -->
+  
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/blog/r_nube/"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fa fa-fw fa-facebook" aria-hidden="true"></span>
+    </a>
+  
+
+  <!--- Share on Google Plus -->
+  
+    <a href="https://plus.google.com/share?url=http://localhost:4000/blog/r_nube/"
+      class="btn btn-social-icon btn-google" title="Share on Google+">
+      <span class="fa fa-fw fa-google-plus" aria-hidden="true"></span>
+    </a>
+  
+
+  <!--- Share on LinkedIn -->
+  
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/blog/r_nube/"
+      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      <span class="fa fa-fw fa-linkedin" aria-hidden="true"></span>
+    </a>
+  
+
+</section>
+
+
+
+      
+
+      <ul class="pager blog-pager">
+        
+          <li class="previous">
+            <a href="/blog/R_potencial/" data-toggle="tooltip" data-placement="top" title="¿Nuevo en R o no conoces todo su potencial? Esto es para ti">&larr; Previous Post</a>
+          </li>
+        
+        
+          <li class="next">
+            <a href="/blog/rladies/" data-toggle="tooltip" data-placement="top" title="Primer Meetup RLadies-Quito">Next Post &rarr;</a>
+          </li>
+        
+      </ul>
+
+      
+        <div class="disqus-comments">
+          
+<div class="comments">
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+	    var disqus_shortname = 'rusersgroup-com';
+	    // ensure that pages with query string or anchor get the same discussion
+            var url_parts = window.location.href.split("?");
+            url_parts = url_parts[0].split("#");
+            disqus_url = url_parts[0];
+            disqus_url = disqus_url.replace(/(\/)*$/, "/"); // make sure the URL ends with one slash
+            
+            // Jekyll 3 caused so many bugs, I'm tired of fixing them one by one properly, so I'll just hack it...
+            // https://github.com/jekyll/jekyll/issues/4483
+            // The projects page now has a trailing slash, it didn't used to
+            if (disqus_url.substr(-9) == "projects/") {
+            	disqus_url = disqus_url.substr(0, disqus_url.length - 1);
+            }
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+
+        </div>
+      
+      
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+          <li>
+            <a href="https://www.facebook.com/groups/rusersgroup" title="Facebook">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li>
+            <a href="https://github.com/rusersgroup" title="GitHub">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+		  
+          <li>
+            <a href="https://twitter.com/rusersgroup" title="Twitter">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+		  
+          <li>
+            <a href="mailto:info@rusersgroup.com" title="Email me">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+		  
+		  
+		  		  
+        </ul>
+        <p class="copyright text-muted">
+		  R Users Group - Ecuador
+		  &nbsp;&bull;&nbsp;
+		  2018
+		  
+		  
+	    </p>
+	
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    <!-- everything has to be repeated twice because on 2016-02-01 GitHub pages migrated to jekyll 3; see bug https://github.com/jekyll/jekyll/issues/4439 -->
+
+
+
+
+
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/main.js"></script>
+    
+  
+
+
+
+
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-102304043-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+
+
+  
+  </body>
+</html>

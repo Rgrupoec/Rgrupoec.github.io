@@ -7,6 +7,177 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Mapas dinámicos con Highcharter</title>
+        <description>
+          
+          Introducción Mapas dinámicos - Función hcmap Mapas dinámicos - Ecuador Provincias de Ecuador Introducción Si no sabes que es Highcharter, puedes revisar nuestro post: Gráficos dinámicos con highcharter Si ya lo conoces pasemos directamente a una aplicación de la función hcmap. Mapas dinámicos - Función hcmap La función hcmap nos...
+        </description>
+        <pubDate>Thu, 26 Oct 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/mapa-ecuador/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/mapa-ecuador/</guid>
+      </item>
+    
+      <item>
+        <title>Introducción a gráficos dinámicos con Highcharter</title>
+        <description>
+          
+          Introducción Gráficos dinámicos Introducción Highcharter Highcharter es un paquete de R para crear gráficos dinámicos de Highcharts que utilizan internamente javascript. Highcharts es una biblioteca de gráficos javascript muy madura y flexible y tiene una gran y poderosa API. Las principales características de este paquete son: Permite generar varios tipos...
+        </description>
+        <pubDate>Thu, 19 Oct 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/highcharter/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/highcharter/</guid>
+      </item>
+    
+      <item>
+        <title>Escuela de R-Estadística 3ra edición - 2017</title>
+        <description>
+          
+          Escuela de R-Estadística En el 2013 tuvo lugar la primera Escuela de R-Estadística siendo un éxito rotundo al difundir el uso de las técnicas estadísticas mediante el uso de software libre, desde su primera edición se ha caracterizado por contar con un staff de facilitadores del más alto nivel. Ahora...
+        </description>
+        <pubDate>Tue, 10 Oct 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/escuelar3/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/escuelar3/</guid>
+      </item>
+    
+      <item>
+        <title>Por el Día Mundial de la Estadística - conCienciArte 2</title>
+        <description>
+          
+          Por el Día Mundial de la Estadística conCienciArte / 2nd edition La Sociedad Ecuatoriana de Estadística y el R Users Group - Ecuador te invitan a la segunda edición de este meet-up con exponentes que hacen de la forma de presentar la información estadística un arte; un espacio para la...
+        </description>
+        <pubDate>Tue, 10 Oct 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/concienciarte2/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/concienciarte2/</guid>
+      </item>
+    
+      <item>
+        <title>R Tips - Reportería en excel con R y xlsx</title>
+        <description>
+          
+          Reportería en excel con R y xlsx Formato tradicional Formato personalizado Reportería en excel con R y xlsx En el ambito laboral generalmente presentamos resultados, reportes, tablas, etc. en archivos excel, si bien usamos R para limpieza y procesamiento, entonces ¿porque no usarlo para presentación de resultados? En esta publicación...
+        </description>
+        <pubDate>Sat, 30 Sep 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/exportar_excel/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/exportar_excel/</guid>
+      </item>
+    
+      <item>
+        <title>R Tips - Instalación y carga simultánea de librerías</title>
+        <description>
+          
+          Instalación y carga de librerías Usar función sin cargar librería Carga e instalación simulatanea Instalación desde otros repositorios Instalación y carga de librerías Si usas R, sabes que una de sus grandes ventajas es la ampliación de sus funcionalidades mediantes paquetes o librerías. Te presentamos varios tips a fin de...
+        </description>
+        <pubDate>Mon, 25 Sep 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/packages/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/packages/</guid>
+      </item>
+    
+      <item>
+        <title>II Encuentro de Cientificos de Datos</title>
+        <description>
+          
+          II Encuentro de Cientificos de Datos en Quito Esta noche hablaremos sobre Inteligencia Artificial (AI) y herramientas open source relacionadas. También, abriremos un espacio para los interesados en presentar sus proyectos de AI. ¡Y muchas sorpresas más! Así que, si tienes un proyecto de Al que resuelva alguna necesidad de...
+        </description>
+        <pubDate>Mon, 18 Sep 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/datasciencemeetup/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/datasciencemeetup/</guid>
+      </item>
+    
+      <item>
+        <title>Ejemplo de reactivos en Shiny</title>
+        <description>
+          
+          ¿Quieres iniciar o especializarte en el desarrollo de aplicaciones shiny?
+
+Te compartimos esta app.
+
+
+
+
+  
+    Ejemplo aplicación reactivos
+  
+
+
+
+  
+    Síguenos en nuestras redes, más adelante compartiremos el código de ésta y varias aplicaciones.
+  
+
+
+        </description>
+        <pubDate>Fri, 01 Sep 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/reactivos_shiny/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/reactivos_shiny/</guid>
+      </item>
+    
+      <item>
+        <title>Guía completa markdown y su integración con R</title>
+        <description>
+          
+          ¿Qué es Markdown? Integración con R ¿Qué es Markdown? Markdown es un lenguaje de marcado ligero parecido al que se emplea en muchas wikis y basado originalmente en convenciones existentes en el marcado de los los correos electronicos. Emplea texto plano, procurando que sea legible pero consiguiendo que se convierta...
+        </description>
+        <pubDate>Sun, 27 Aug 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/rmarkdown/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/rmarkdown/</guid>
+      </item>
+    
+      <item>
+        <title>Web scraping con R</title>
+        <description>
+          
+          Web scraping con R Webscraping Introducción Herramientas de web scraping Web scraping con R y RSelenium Web scraping con R Introducción En este trabajo se discute la potencialidad de R para realizar web scraping. Web scraping o screen scraping es el proceso de extracción automatizada de datos contenidos en un...
+        </description>
+        <pubDate>Wed, 23 Aug 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/rselenium/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/rselenium/</guid>
+      </item>
+    
+      <item>
+        <title>Introducción a gráficos en R</title>
+        <description>
+          
+          Introducción a gráficos en R Sistemas gráficos de R Sistema gráfico de base Sistema gráfico Lattice Sistema gráfico ggplot2 Sistemas gráficos de R Introducción a gráficas de R R actualmente constituye una de las principales herramientas empleada en la generación de gráﬁcos estadísticos de alta calidad y complejidad. Presenta características...
+        </description>
+        <pubDate>Thu, 17 Aug 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/graf/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/graf/</guid>
+      </item>
+    
+      <item>
+        <title>Introducción a R</title>
+        <description>
+          
+          Introducción y objetivos Instalación R, Rstudio, paquetes Data managment, parte I ¿Cómo leer archivos en R? Funciones Estructuras de control Introducción y objetivos Introducción al uso de R como lenguaje de programación estadístico El presente módulo introduce al participante en el manejo del software R, lo cual comprende la instalación...
+        </description>
+        <pubDate>Wed, 26 Jul 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/intro/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/intro/</guid>
+      </item>
+    
+      <item>
+        <title>Primer Meetup RLadies-Quito</title>
+        <description>
+          
+          RLadies-Quito R Users Group - Ecuador te invita a participar de este encuentro. ¡Bienvenidas al primer meet-up de R-Ladies Quito! En este meet-up, haremos una introducción de R, una introducción de nosotras y una mesa redonda para conocernos y hacer un poco de networking. Si conoces a otras mujeres interesadas...
+        </description>
+        <pubDate>Tue, 18 Jul 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/rladies/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/rladies/</guid>
+      </item>
+    
+      <item>
+        <title>Cloud Computing - R en la nube!</title>
+        <description>
+          
+          Te mostramos varias opciones para usar la consola de R en línea como un primer acercamiento al Cloud Computing. Pero ¿Qué es cloud computing? Cloud computing puede definirse como un modelo de computación en el cual el hardware y software necesarios para prestar un servicio residen en centros de datos...
+        </description>
+        <pubDate>Sat, 15 Jul 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/r_nube/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/r_nube/</guid>
+      </item>
+    
+      <item>
         <title>¿Nuevo en R o no conoces todo su potencial? Esto es para ti</title>
         <description>
           
@@ -47,6 +218,17 @@
       </item>
     
       <item>
+        <title>Web oficial</title>
+        <description>
+          
+          R Users Group - Ecuador presenta su web oficial. En esta web se registran todas las actividades de la comunidad R Users Group - Ecuador. A su vez servirá como blog y repositorio para compartir investigaciones y aplicaciones de las mismas. Nota: Si te interesa publicar contenido, favor contáctanos a...
+        </description>
+        <pubDate>Sun, 02 Jul 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/web_ofiial/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/web_ofiial/</guid>
+      </item>
+    
+      <item>
         <title>R y Markdown - básico</title>
         <description>
           
@@ -58,41 +240,25 @@
       </item>
     
       <item>
-        <title>Primera publicación</title>
+        <title>Curso Tratamiento, Visualización y Modelamiento Estadístico con R - Universidad Cenral del Ecuador</title>
         <description>
           
-           Primera publicación de R Users Group - Ecuador.
-
-Estamos probando nuestra web, en pocos días publicaremos contenido muy interesante.
-
-  Nota:
-
-
-
-  
-    Únete a la comunidad de usuarios de R en Ecuador.
-    Comparte esta web con tu red.
-  
-
-
-R Users Group - Ecuador
-
-
+          Tratamiento, Visualización y Modelamiento Estadístico con R Curso de R: 100% práctico Certificado avalado por la Facultad de Ciencias Económicas de la Universidad Central del Ecuador y el R Users Group - Ecuador + Refrigerio. Instructor: Miguel A. Flores Sánchez, PhD en Estadística e Investigación de Operaciones, docente investigador del...
         </description>
-        <pubDate>Sun, 02 Jul 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/primera-publicacion/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/primera-publicacion/</guid>
+        <pubDate>Sat, 03 Jun 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/cursor-uce/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/cursor-uce/</guid>
       </item>
     
       <item>
-        <title>Web oficial</title>
+        <title>Meeting de Ciencia y Arte - conCienciArte</title>
         <description>
           
-          R Users Group - Ecuador presenta su web oficial. En esta web se registran todas las actividades de la comunidad R Users Group - Ecuador. A su vez servirá como blog y repositorio para compartir investigaciones y aplicaciones de las mismas. Nota: Si te interesa publicar contenido, favor contáctanos a...
+          conCienciArte “La creatividad es la inteligencia divirtiéndose” A. Einstein Cuando ciencia y arte se juntan. La SEE y R Users Group - Ecuador te invitan a este meet-up con exponentes que hacen de la estadística un arte y expresiones artísticas diversas, un espacio para la creatividad y el networking. CIENCIA...
         </description>
-        <pubDate>Sun, 02 Jul 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/web_ofiial/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/web_ofiial/</guid>
+        <pubDate>Thu, 01 Jun 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/concienciarte1/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/concienciarte1/</guid>
       </item>
     
   </channel>
