@@ -1,35 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://mas-alla-de-la-independencia-estadistica.com/index.html</loc>
-    <lastmod>2018-06-01</lastmod>
+    <loc>http://rusersgroup.com/conf_stat2018/index.html</loc>
+    <lastmod>2018-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://mas-alla-de-la-independencia-estadistica.com/images/cabecera-01.jpg</image:loc>
+      <image:loc>http://rusersgroup.com/conf_stat2018/images/cabecera-01.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://mas-alla-de-la-independencia-estadistica.com/images/cabecera-02.jpg</image:loc>
+      <image:loc>http://rusersgroup.com/conf_stat2018/images/cabecera-02.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://mas-alla-de-la-independencia-estadistica.com/images/cabecera-03.jpg</image:loc>
+      <image:loc>http://rusersgroup.com/conf_stat2018/images/cabecera-03.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://mas-alla-de-la-independencia-estadistica.com/assets/i_jornada_r_cartel_18.jpg</loc>
+    <loc>http://rusersgroup.com/conf_stat2018/assets/i_jornada_r_cartel_18.jpg</loc>
     <lastmod>2018-05-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mas-alla-de-la-independencia-estadistica.com/assets/hover-min.css</loc>
+    <loc>http://rusersgroup.com/conf_stat2018/assets/race-to-the-finish---help-rebuild-our-quake-stricken-chapel!.png</loc>
+    <lastmod>2018-05-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://rusersgroup.com/conf_stat2018/assets/afiche2.jpg</loc>
+    <lastmod>2018-06-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://rusersgroup.com/conf_stat2018/assets/hover-min.css</loc>
     <lastmod>2018-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mas-alla-de-la-independencia-estadistica.com/assets/race-to-the-finish---help-rebuild-our-quake-stricken-chapel!.png</loc>
-    <lastmod>2018-05-28</lastmod>
+    <loc>http://rusersgroup.com/conf_stat2018/assets/race-to-the-finish---help-rebuild-our-quake-stricken-chapel!2.png</loc>
+    <lastmod>2018-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://rusersgroup.com/conf_stat2018/assets/race-to-the-finish---help-rebuild-our-quake-stricken-chapel!-(4).png</loc>
+    <lastmod>2018-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://rusersgroup.com/conf_stat2018/assets/creatico.mulib</loc>
+    <lastmod>2017-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
