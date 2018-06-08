@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="rusersgroup.com/conf_stat2018" resolutions="1x" timestamp="1528413049738">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://rusersgroup.com/conf_stat2018" resolutions="1x" timestamp="1528425896063">
   <folder name="css">
     <file name="site_global.css" crc="112944842"/>
-    <file name="index.css" crc="4140649524" ref="index"/>
-    <file name="nomq_index.css" crc="3985631088" ref="index"/>
+    <file name="index.css" crc="302519434" ref="index"/>
+    <file name="nomq_index.css" crc="186635385" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="hover-min.css" crc="3850583018" seo="true" mt="1523880580000"/>
@@ -12,6 +12,7 @@
     <file name="creatico.mulib" crc="3848530200" seo="true" mt="1484401241000"/>
     <file name="race-to-the-finish---help-rebuild-our-quake-stricken-chapel!2.png" crc="286256344" seo="true" mt="1528351144000"/>
     <file name="race-to-the-finish---help-rebuild-our-quake-stricken-chapel!-(4).png" crc="472553167" seo="true" mt="1528409249000"/>
+    <file name="race-to-the-finish---help-rebuild-our-quake-stricken-chapel!-(7).png" crc="4111062043" seo="true" mt="1528423707000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -220,5 +221,5 @@
     <file name="analytics-u22618-fr2.jpg" crc="243391169" ref="index"/>
     <file name="inicio-normal-buttonu21233-fr.png" crc="491921662" ref="index"/>
   </folder>
-  <file name="index.html" crc="112717697" seo="true" mt="1528412843369" redirect="true"/>
+  <file name="index.html" crc="475674303" seo="true" mt="1528425870031" redirect="true"/>
 </manifest>
