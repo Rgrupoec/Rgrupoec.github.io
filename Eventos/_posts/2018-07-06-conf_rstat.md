@@ -25,9 +25,7 @@ Fomentar la colaboración en temas multidisciplinarios y divulgar el conocimient
 ![](http://rusersgroup.com/conf_stat2018/assets/afiche.png)
 
 
-### Web del evento
-
-![](http://rusersgroup.com/conf_stat2018/)
+![Web del evento](http://rusersgroup.com/conf_stat2018/)
 
 
 ### PRESENTACIONES

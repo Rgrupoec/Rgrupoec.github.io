@@ -17,10 +17,10 @@ avatar: "/img/final5x5.png"
 
 # List of links in the navigation bar
 navbar-links:
-  Próximos eventos:
-    - Conferencia estadística: "conf_stat2018"
+#  Próximos eventos:
+#    - Conferencia estadística: "conf_stat2018"
 #    - Jornadas R: "jornadas_r2018"
-#  R Potencial: "http://rusersgroup.com/blog/R_potencial/"
+  R Potencial: "http://rusersgroup.com/blog/R_potencial/"
   Blog R:
     - Temario: "publicaciones"
     - Etiquetas: "tags"
