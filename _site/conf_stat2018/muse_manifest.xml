@@ -1,13 +1,18 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mas-alla-de-la-independencia-estadistica.com" resolutions="1x" timestamp="1527897651978">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://rusersgroup.com/conf_stat2018" resolutions="1x" timestamp="1528425896063">
   <folder name="css">
     <file name="site_global.css" crc="112944842"/>
-    <file name="index.css" crc="77499660" ref="index"/>
-    <file name="nomq_index.css" crc="50435373" ref="index"/>
+    <file name="index.css" crc="302519434" ref="index"/>
+    <file name="nomq_index.css" crc="186635385" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="hover-min.css" crc="3850583018" seo="true" mt="1523880580000"/>
     <file name="i_jornada_r_cartel_18.jpg" crc="4273490419" seo="true" mt="1526592741000"/>
     <file name="race-to-the-finish---help-rebuild-our-quake-stricken-chapel!.png" crc="4118161682" seo="true" mt="1527548257000"/>
+    <file name="afiche2.jpg" crc="265484217" seo="true" mt="1528264696000"/>
+    <file name="creatico.mulib" crc="3848530200" seo="true" mt="1484401241000"/>
+    <file name="race-to-the-finish---help-rebuild-our-quake-stricken-chapel!2.png" crc="286256344" seo="true" mt="1528351144000"/>
+    <file name="race-to-the-finish---help-rebuild-our-quake-stricken-chapel!-(4).png" crc="472553167" seo="true" mt="1528409249000"/>
+    <file name="race-to-the-finish---help-rebuild-our-quake-stricken-chapel!-(7).png" crc="4111062043" seo="true" mt="1528423707000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -24,7 +29,7 @@
     <file name="form_check.php" crc="4020933626" ref="index"/>
     <file name="form_throttle.php" crc="4259590256" ref="index"/>
     <file name="form_process.php" crc="37464564" ref="index"/>
-    <file name="form-u11218.php" crc="254508484" ref="index"/>
+    <file name="form-u11218.php" crc="3932731921" ref="index"/>
     <file name="musewpdisclosure.js" crc="3883500470" ref="index"/>
     <file name="jquery.scrolleffects.js" crc="39568856" ref="index"/>
     <file name="html5shiv.js" crc="4241844378" ref="index"/>
@@ -89,7 +94,7 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="comentario02.jpg" crc="309863679" ref="index">
+    <file name="whatsapp image 2018-06-05 at 151433.jpg" crc="4179932950" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -124,6 +129,35 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
+    <file name="images.jpg" crc="111742368" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="analytics.jpg" crc="85028019" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="facebook-u22384-fr.png" crc="355041924" ref="index"/>
+    <file name="twitter.jpg" crc="111976551" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="25231.jpg" crc="520139014" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="rlogo.png" crc="4256148305" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
     <file name="quienes-somos.png" crc="336959440" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -141,24 +175,32 @@
     <file name="logo-u20626-fr.png" crc="332972104" ref="index"/>
     <file name="logo_matemática.svg" crc="416547398" ref="index"/>
     <file name="logo_matemática_poster_u21866.png" crc="375569196" ref="index"/>
-    <file name="rlogo.png" crc="3786781060" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+    <file name="dgip.jpg" crc="3836804042" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="dgip-u21910-fr.jpg" crc="497458515" ref="index"/>
-    <file name="opciones 4_mesa de trabajo 10 copia.jpg" crc="149577155" ref="index">
+    <file name="finalp.png" crc="210809316" ref="index">
       <caption webpage="index" alt=""/>
+    </file>
+    <file name="opciones 4_mesa de trabajo 10 copia.jpg" crc="4080660203" ref="index">
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+    </file>
+    <file name="facultad_ciencias_big.png" crc="4138458297" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="inicio-normal.png" crc="10135371" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="images-u22518-fr.jpg" crc="3759955915" ref="index"/>
+    <file name="finalp-u21943-fr.png" crc="4290622019" ref="index"/>
+    <file name="dgip-u21910-fr.jpg" crc="4277497186" ref="index"/>
+    <file name="opciones 4_mesa de trabajo 10 copia-u21994-fr.jpg" crc="3826351663" ref="index"/>
+    <file name="facultad_ciencias_big-u22146-fr.png" crc="3898127878" ref="index"/>
+    <file name="images-u22518-fr2.jpg" crc="3901046174" ref="index"/>
+    <file name="analytics-u22618-fr.jpg" crc="4149530048" ref="index"/>
+    <file name="opciones 4_mesa de trabajo 10 copia-u21994-fr2.jpg" crc="174192073" ref="index"/>
+    <file name="finalp-u21943-fr2.png" crc="4150615278" ref="index"/>
+    <file name="facultad_ciencias_big-u22146-fr2.png" crc="3897655756" ref="index"/>
+    <file name="dgip-u21910-fr2.jpg" crc="3788232671" ref="index"/>
     <file name="logo-u20529-fr.png" crc="248010262" ref="index"/>
     <file name="menu.png" crc="3935061649" ref="index">
       <caption webpage="index" alt=""/>
@@ -171,7 +213,13 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="brochure-u7302-fr.jpg" crc="280894903" ref="index"/>
+    <file name="dgip-u21910-fr3.jpg" crc="3901041006" ref="index"/>
+    <file name="opciones 4_mesa de trabajo 10 copia-u21994-fr3.jpg" crc="3912856862" ref="index"/>
+    <file name="finalp-u21943-fr3.png" crc="281710104" ref="index"/>
+    <file name="facultad_ciencias_big-u22146-fr3.png" crc="3904630650" ref="index"/>
+    <file name="images-u22518-fr3.jpg" crc="164463906" ref="index"/>
+    <file name="analytics-u22618-fr2.jpg" crc="243391169" ref="index"/>
     <file name="inicio-normal-buttonu21233-fr.png" crc="491921662" ref="index"/>
   </folder>
-  <file name="index.html" crc="395973328" seo="true" mt="1527897627921" redirect="true"/>
+  <file name="index.html" crc="475674303" seo="true" mt="1528425870031" redirect="true"/>
 </manifest>

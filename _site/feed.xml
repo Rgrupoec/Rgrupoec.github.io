@@ -7,6 +7,17 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Conferencia R-Estadística</title>
+        <description>
+          
+          Conferencias R-Estadística En la primera edición de “Conferencias R-Estadística”, se contó con la participación de seis miembros de RUGE que nos brindaron diferentes charlas sobre la modelización espacio - temporal desde un enfoque Paramétrico y No Paramétrico. Objetivo Proporcionar un punto de encuentro periódico a profesionales, docentes e investigadores interesados...
+        </description>
+        <pubDate>Fri, 06 Jul 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/conf_rstat/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/conf_rstat/</guid>
+      </item>
+    
+      <item>
         <title>Mapas dinámicos con Highcharter</title>
         <description>
           
@@ -248,17 +259,6 @@ Te compartimos esta app.
         <pubDate>Sat, 03 Jun 2017 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/blog/cursor-uce/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/cursor-uce/</guid>
-      </item>
-    
-      <item>
-        <title>Meeting de Ciencia y Arte - conCienciArte</title>
-        <description>
-          
-          conCienciArte “La creatividad es la inteligencia divirtiéndose” A. Einstein Cuando ciencia y arte se juntan. La SEE y R Users Group - Ecuador te invitan a este meet-up con exponentes que hacen de la estadística un arte y expresiones artísticas diversas, un espacio para la creatividad y el networking. CIENCIA...
-        </description>
-        <pubDate>Thu, 01 Jun 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/concienciarte1/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/concienciarte1/</guid>
       </item>
     
   </channel>
