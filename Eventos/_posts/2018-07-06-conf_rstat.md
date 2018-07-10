@@ -37,7 +37,12 @@ Las series de tiempo nos rodean, desde los registros en un servidor hasta los da
 
 POR: YANDIRA CUVERO
 
-![INTRODUCCIÓN A LAS SERIES DEL TIEMPO](http://rusersgroup.com/conf_stat2018/present/estadistica_espacial.html)
+<object data="http://rusersgroup.com/conf_stat2018/present/estadistica espacial.pdf" type="application/pdf" width="1100px" height="800px">
+    <embed src="http://rusersgroup.com/conf_stat2018/present/estadistica espacial.pdf">
+        This browser does not support PDFs. Please download the PDF to view it: <a href="https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-spanish.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+
  
 ## INTRODUCCIÓN A LOS MODELOS DINÁMICOS
 En esta intervención se dará una introducción a los modelos dinámicos, explicados por su mismo pasado y/o variables exógenas. Se comenzará con los modelos univariados autor-regresivos para luego continuar con los multivariados. En la parte multivariada se considerará el problema de endogeneidad, identificación estructural, el problema de variable omitida, parámetros estructurales y modelos con volatilidad estocástica
