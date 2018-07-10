@@ -1,6 +1,6 @@
 ---
 layout: 		post
-title: Conferencia R-Estadística
+title: Conferencias R-Estadística
 comments:		true
 tags: 
   - R
