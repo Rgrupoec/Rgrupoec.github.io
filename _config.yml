@@ -28,7 +28,7 @@ navbar-links:
     - Capacitación permanente: "cursos"
     - Consultoría: "consultoria"
   Nosotros:
-#    - ¿Quiénes somos?: "about"
+    - ¿Quiénes somos?: "about"
     - Contacto: "contact"
   Únete:
     - como miembro: "join"
