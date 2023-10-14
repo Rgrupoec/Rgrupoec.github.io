@@ -19,7 +19,7 @@ avatar: "/img/final5x5.png"
 navbar-links:
 #  Próximos eventos:
 #    - Conferencia estadística: "conf_stat2018"
-   - Jornadas R: "jornadas_r2018"
+#    - Jornadas R: "jornadas_r2018"
   R Potencial: "http://rusersgroup.com/blog/R_potencial/"
   Blog R:
     - Temario: "publicaciones"
