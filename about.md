@@ -18,7 +18,7 @@ direct-list:
     url: https://www.linkedin.com/in/cristian-benalcázar-62b8b93b/
   - name: Andrés Peña M.
     img: /img/people/andres.jpg
-    desc:  Analista de Estadísticas Económicas del INEC. Ingeniero Empresarial de la EPN. Especialista en estadística económica-social, parte del Grupo de Expertos Gubernamentales en Estadísticas Manufactureras de la CAN. Capacitador de la Sociedad Ecuatoriana de Estadística en R, SPSS y Stata.
+    desc:  Ph.D. (c) en Estudios de Población de El Colegio de México A.C., Máster en Población y Desarrollo de la FLACSO México, Especialista en Estadística Aplicada de la UNAM y Especialista en Análisis Demográfico por CELADE.
     url: https://www.linkedin.com/in/andrés-peña-m-608a802a/
   - name: Ana Julia Escobar
     img: /img/people/ana.jpg
