@@ -7,6 +7,28 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>T+V+M 5ta Edición</title>
+        <description>
+          
+          TRATAMIENTO + VISUALIZACIÓN + MODELAMIENTO ESTADÍSTICO &amp;lt;- 5ta Edición 1. OBJETIVOS DEL CURSO El objetivo del curso es actualizar-ampliar los conocimientos en la optimización de la gestión de información cuantitativa empoderando al participante de destrezas en el manejo del software R en data management, estructuras de programación, estadística descriptiva e...
+        </description>
+        <pubDate>Sun, 21 Jul 2019 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/TMV5/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/TMV5/</guid>
+      </item>
+    
+      <item>
+        <title>Taller_R_Estadística(2nd)</title>
+        <description>
+          
+          Introducción a la Inferencia Estadística con R - 2da Edición Contenido ✔ Unidad 1 &amp;lt;- La estadística una orquesta hecha instrumento. ✔ Unidad 2 &amp;lt;- Data management en R. Análisis descriptivo. ✔ Unidad 3 &amp;lt;- Probabilidad y variables aleatorias. ✔ Unidad 4 &amp;lt;- Distribuciones en el muestreo. ✔ Unidad 5...
+        </description>
+        <pubDate>Thu, 18 Apr 2019 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/inf_rstat2/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/inf_rstat2/</guid>
+      </item>
+    
+      <item>
         <title>Taller_R_Estadística()</title>
         <description>
           
@@ -237,28 +259,6 @@ Te compartimos esta app.
         <pubDate>Thu, 06 Jul 2017 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/blog/shinyapp/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/shinyapp/</guid>
-      </item>
-    
-      <item>
-        <title>Web oficial</title>
-        <description>
-          
-          R Users Group - Ecuador presenta su web oficial. En esta web se registran todas las actividades de la comunidad R Users Group - Ecuador. A su vez servirá como blog y repositorio para compartir investigaciones y aplicaciones de las mismas. Nota: Si te interesa publicar contenido, favor contáctanos a...
-        </description>
-        <pubDate>Sun, 02 Jul 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/web_ofiial/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/web_ofiial/</guid>
-      </item>
-    
-      <item>
-        <title>R y Markdown - básico</title>
-        <description>
-          
-          Documentos Markdown generados con R Este es un ejemplo básico del uso de R y Markdown para generar doumentos HTML, Word y PDF. Código R summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean...
-        </description>
-        <pubDate>Sun, 02 Jul 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/r_markdown/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/r_markdown/</guid>
       </item>
     
   </channel>

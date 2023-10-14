@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>T+V+M 5ta Edición</title>
+
+  <meta name="author" content="R Users Group - Ecuador" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="R Users Group - Ecuador - Pagina oficial de R Users Group - Ecuador" href="/feed.xml" />
+
+  
+    
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="T+V+M 5ta Edición" />
+  
+
+   
+  <meta property="og:description" content="TRATAMIENTO + VISUALIZACIÓN + MODELAMIENTO ESTADÍSTICO &amp;lt;- 5ta Edición 1. OBJETIVOS DEL CURSO El objetivo del curso es actualizar-ampliar los conocimientos en la optimización de la gestión de información cuantitativa empoderando al participante de destrezas en el manejo del software R en data management, estructuras de programación, estadística descriptiva e...">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="http://localhost:4000/blog/TMV5/" />
+  <link rel="canonical" href="http://localhost:4000/blog/TMV5/" />
+  
+
+  
+  <meta property="og:image" content="http://localhost:4000/img/final5x5.png" />
+  
+  
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@rusersgroup" />
+  <meta name="twitter:creator" content="@rusersgroup" />
+
+  
+  <meta name="twitter:title" content="T+V+M 5ta Edición" />
+  
+
+  
+  <meta name="twitter:description" content="TRATAMIENTO + VISUALIZACIÓN + MODELAMIENTO ESTADÍSTICO &amp;lt;- 5ta Edición 1. OBJETIVOS DEL CURSO El objetivo del curso es actualizar-ampliar los conocimientos en la optimización de la gestión de información cuantitativa empoderando al participante de destrezas en el manejo del software R en data management, estructuras de programación, estadística descriptiva e...">
+  
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/img/final5x5.png" />
+  
+
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://localhost:4000">R Users Group - Ecuador</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+            
+
+
+
+
+
+<a href="http://rusersgroup.com/blog/R_potencial/">R Potencial</a>
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Blog R</a>
+            <div class="navlinks-children">
+              
+                
+                  
+            
+
+
+
+
+
+<a href="/publicaciones">Temario</a>
+
+                
+              
+                
+                  
+            
+
+
+
+
+
+<a href="/tags">Etiquetas</a>
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Servicios</a>
+            <div class="navlinks-children">
+              
+                
+                  
+            
+
+
+
+
+
+<a href="/cursos">Capacitación permanente</a>
+
+                
+              
+                
+                  
+            
+
+
+
+
+
+<a href="/consultoria">Consultoría</a>
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Nosotros</a>
+            <div class="navlinks-children">
+              
+                
+                  
+            
+
+
+
+
+
+<a href="/about">¿Quiénes somos?</a>
+
+                
+              
+                
+                  
+            
+
+
+
+
+
+<a href="/contact">Contacto</a>
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Únete</a>
+            <div class="navlinks-children">
+              
+                
+                  
+            
+
+
+
+
+
+<a href="/join">como miembro</a>
+
+                
+              
+                
+                  
+            
+
+
+
+
+
+<a href="/join_editor">como miembro editor</a>
+
+                
+              
+                
+                  
+            
+
+
+
+
+
+<a href="/consul">como Consultor</a>
+
+                
+              
+            </div>
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="http://localhost:4000 ">
+	      <img class="avatar-img" src="/img/final5x5.png" />
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          <h1>T+V+M 5ta Edición</h1>
+		  
+		  
+		  
+		  <span class="post-meta">Publicado el July 21, 2019</span>
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+      	<h3 id="tratamiento--visualización--modelamiento-estadístico---5ta-edición">TRATAMIENTO + VISUALIZACIÓN + MODELAMIENTO ESTADÍSTICO &lt;- 5ta Edición</h3>
+
+<p><img src="/img/eventos/tmv5.jpg" alt="" /></p>
+
+<h3 id="1-objetivos-del-curso">1. OBJETIVOS DEL CURSO</h3>
+<p>El objetivo del curso es actualizar-ampliar los conocimientos en la optimización de la gestión de información cuantitativa empoderando al participante de destrezas en el manejo del software R en data management, estructuras de programación, estadística descriptiva e inferencial, gráficas de alto nivel, Statistical &amp; Machine Learning, reportería dinámica y visualización en base a aplicaciones y casos prácticos.</p>
+
+<h3 id="2-descripción-del-curso">2. DESCRIPCIÓN DEL CURSO</h3>
+<p>La escuela abarca el contenido necesario para que el participante, empezando de cero el uso del software, aprenda a través de los diferentes módulos varias herramientas de análisis de datos hasta llegar a presentar la información de forma dinámica.<br />
+Se arranca desde la instalación y configuración del software necesario para el entorno de programación estadística, la discusión de los conceptos del lenguaje de programación genéricos, se revisan aspectos teórico-prácticos de la estadística, bases de datos, escritura de funciones, agregación de bases de datos, inferencia estadística, herramientas gráficas.<br />
+También incorpora manipulación avanzada de datos, modelos lineales, Statistical &amp; Machine Learning, reportería dinámica, aplicaciones Web e integración con bases de datos SQL.</p>
+
+<h3 id="3-materiales-de-apoyo">3. MATERIALES DE APOYO</h3>
+<p> Presentaciones sobre el tema.<br />
+ Bibliografía  de apoyo sobre el software y sus aplicaciones.<br />
+ Sitio web de apoyo para consultas.</p>
+
+<h3 id="4-contenido-del-curso">4. CONTENIDO DEL CURSO</h3>
+
+<h3 id="módulo-1-tratamiento-de-datos-e-inferencia-estadística-con-r-studio">Módulo 1: Tratamiento de datos e Inferencia Estadística con R Studio</h3>
+<ol>
+  <li>Visión general de R: instalación de R, R-Studio y otros. <br />
+ Objetos de R <br />
+ Paquetes, librerías</li>
+  <li>Data management parte I: <br />
+ Manipulación básica de datos <br />
+ Agregación y Filtrado de datos <br />
+ Importación y Exportación de datos</li>
+  <li>Data management parte II: <br />
+ Paquete “dplyr” en R. <br />
+ Combinación bases de datos “merge”</li>
+  <li>Estadística inferencial <br />
+ Introducción al modelamiento estadístico. <br />
+ Estimación puntual y por intervalos.</li>
+</ol>
+
+<h3 id="módulo-2-statistical--machine-learning-con-r-studio">Módulo 2: Statistical &amp; Machine Learning con R Studio</h3>
+<ol>
+  <li>Statistical Learning <br />
+ Introducción a modelos lineales y aditivos generalizados. <br />
+ Validación del modelo y aplicación. <br />
+ Introducción a Estadística No paramétrica <br />
+ Introducción a Estadística Bayesiana</li>
+  <li>Machine Learning <br />
+ Problemas de clasificación y regresión <br />
+ Support Vector Machines<br />
+ Predicción usando Simple Neural Networks<br />
+ Árboles de decisión<br />
+ Bosques aleatorios<br />
+ Introducción al Deep Learning</li>
+</ol>
+
+<h3 id="módulo-3-visualización-con-r-studio">Módulo 3: Visualización con R Studio</h3>
+<ol>
+  <li>Visualización de Datos con ggplot  y highcharter</li>
+  <li>Data products: Introducción y tipos.</li>
+  <li>Investigación reproducible con Markdown. <br />
+ Informes y presentaciones con R y markdown<br />
+ Procesamiento automático y calendarización de tareas</li>
+  <li>Aplicaciones web con Shiny, Shiny Dashboard y Flexdashboard. <br />
+ Reactivos<br />
+ Condicionales<br />
+ Palancas<br />
+ Integración con bases de datos SQL<br />
+ Prevención de inyección SQL y errores por conexiones<br />
+ Publicación de aplicaciones web en internet y en redes privadas</li>
+</ol>
+
+<h3 id="ubicación">UBICACIÓN</h3>
+
+<p><a href="http://www.copsicp.com/#about">Colegio de Psicólogos Clínicos de Pichincha, Av. 10 de agosto N39155 y Diguja, Torre 2, Oficina 205. </a></p>
+
+<h3 id="fecha">FECHA</h3>
+
+<p>El curso se llevará a cabo los días:<br />
+ Módulo 1: Dos opciones: <br />
+✔ Fin de semana: sábado 24 y domingo 25 de agosto de 08:00 a 13:00 - 14:00 a 17:00 (16 horas). <br />
+✔ Entre semana: De lunes 19 a jueves 22 de agosto de 18:30 a 20:30 y lunes 26 a jueves 29 de agosto de 18:30 a 20:30 (16 horas).</p>
+
+<p> Módulo 2: Dos opciones: <br />
+✔ Fin de semana: sábado 31 de agosto de 08:00 a 13:00 - 14:00 a 17:00 y domingo 1 de septiembre de 08:00 a 12:00 (12 horas).<br />
+✔ Entre semana: De lunes 2 a jueves 5 de septiembre de 18:30 a 20:30 y lunes 9 a martes 10 de septiembre de 18:30 a 20:30 (12 horas).</p>
+
+<p> Módulo 3: Dos opciones:<br />
+✔ Fin de semana: sábado 7 de septiembre de 08:00 a 13:00 - 14:00 a 17:00 y domingo 8 de septiembre de 08:00 a 12:00 (12 horas). <br />
+✔ Entre semana: De miércoles 11 a jueves 12 de septiembre de 18:30 a 20:30 y lunes 16 a jueves 19 de septiembre de 18:30 a 20:30 (12 horas).</p>
+
+<p>Total de horas del curso: 40 horas presenciales.</p>
+
+<h3 id="organizadores">Organizadores</h3>
+
+<p>R Users Group – Ecuador®<br />
+DS Analytics</p>
+
+<h3 id="con-el-apoyo-de">Con el apoyo de:</h3>
+
+<p>Colegio de Psicólogos Clínicos de Pichincha</p>
+
+<h3 id="información-más-detallada">Información más detallada</h3>
+
+<object data="http://rusersgroup.com/pdf/tmv5/Propuesta Curso R - RUGE-5ta.pdf" type="application/pdf" width="1100px" height="800px">
+    <embed src="http://rusersgroup.com/pdf/tmv5/Propuesta Curso R - RUGE-5ta.pdf" />
+        This browser does not support PDFs. Please download the PDF to view it: 
+  <a href="http://rusersgroup.com/pdf/tmv5/Propuesta Curso R - RUGE-5ta.pdf">Descargar PDF</a>.&lt;/p&gt;
+    &lt;/embed&gt;
+</object>
+
+<h3 id="inscripción">Inscripción</h3>
+
+<h3 id="formulario-de-inscripción"><a href="https://docs.google.com/forms/d/1SHPuw088JmrIcBWm2NiZAKqiEfhSqq9ULJw_9UoMcIY/viewform?edit_requested=true">Formulario de inscripción</a></h3>
+
+<h3 id="contactos">Contactos</h3>
+
+<p>Para mayor información comuníquese a capacitacion@rusersgroup.com<br />
+Telf. oficina: (593 2) 601-4235 | 601-4236 <br />
+Móvil: +593 96 996 7080 | +593 99 490 5441<br />
+Av. Amazonas N35-55 y Juan Pablo Sanz, Edif. Antisana 1, oficina 202</p>
+
+
+      </article>
+      
+      
+        <div class="blog-tags">
+          Tags: R, curso, estadistica, visualizacion, tratamiento
+        </div>
+      
+
+      
+      
+        <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+
+  <!--- Share on Twitter -->
+  
+    <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/blog/TMV5/"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fa fa-fw fa-twitter" aria-hidden="true"></span>
+    </a>
+  
+
+  <!--- Share on Facebook -->
+  
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/blog/TMV5/"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fa fa-fw fa-facebook" aria-hidden="true"></span>
+    </a>
+  
+
+  <!--- Share on Google Plus -->
+  
+    <a href="https://plus.google.com/share?url=http://localhost:4000/blog/TMV5/"
+      class="btn btn-social-icon btn-google" title="Share on Google+">
+      <span class="fa fa-fw fa-google-plus" aria-hidden="true"></span>
+    </a>
+  
+
+  <!--- Share on LinkedIn -->
+  
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/blog/TMV5/"
+      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      <span class="fa fa-fw fa-linkedin" aria-hidden="true"></span>
+    </a>
+  
+
+</section>
+
+
+
+      
+
+      <ul class="pager blog-pager">
+        
+          <li class="previous">
+            <a href="/blog/inf_rstat2/" data-toggle="tooltip" data-placement="top" title="Taller_R_Estadística(2nd)">&larr; Previous Post</a>
+          </li>
+        
+        
+      </ul>
+
+      
+        <div class="disqus-comments">
+          
+<div class="comments">
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+	    var disqus_shortname = 'rusersgroup-com';
+	    // ensure that pages with query string or anchor get the same discussion
+            var url_parts = window.location.href.split("?");
+            url_parts = url_parts[0].split("#");
+            disqus_url = url_parts[0];
+            disqus_url = disqus_url.replace(/(\/)*$/, "/"); // make sure the URL ends with one slash
+            
+            // Jekyll 3 caused so many bugs, I'm tired of fixing them one by one properly, so I'll just hack it...
+            // https://github.com/jekyll/jekyll/issues/4483
+            // The projects page now has a trailing slash, it didn't used to
+            if (disqus_url.substr(-9) == "projects/") {
+            	disqus_url = disqus_url.substr(0, disqus_url.length - 1);
+            }
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+
+        </div>
+      
+      
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+          <li>
+            <a href="https://www.facebook.com/groups/rusersgroup" title="Facebook">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li>
+            <a href="https://github.com/rusersgroup" title="GitHub">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+		  
+          <li>
+            <a href="https://twitter.com/rusersgroup" title="Twitter">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+		  
+          <li>
+            <a href="mailto:info@rusersgroup.com" title="Email me">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+		  
+		  
+		  		  
+        </ul>
+        <p class="copyright text-muted">
+		  R Users Group - Ecuador
+		  &nbsp;&bull;&nbsp;
+		  2023
+		  
+		  
+	    </p>
+	
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    <!-- everything has to be repeated twice because on 2016-02-01 GitHub pages migrated to jekyll 3; see bug https://github.com/jekyll/jekyll/issues/4439 -->
+
+
+
+
+
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/main.js"></script>
+    
+  
+
+
+
+
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-102304043-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+
+
+  
+  </body>
+</html>
