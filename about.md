@@ -6,32 +6,32 @@ published: true
 direct-list:
   - name: Miguel A. Flores Sánchez
     img: /img/people/miguel.jpg
-    desc: Fundador de la comunidad R Users Group - Ecuador. Máster en Técnicas Estadística y Ph.D (c) Estadística e Investigación de Operaciones de la Universidad de La Coruña. Magister en Investigación Operativa con mención en Sistemas Logísticos y de Transporte de la EPN. Ingeniero en Estadística Informática de la ESPOL. Docente e Investigador del Departamento de Matemática de la EPN, Capacitador de la Sociedad Ecuatoriana de Estadística en R.
+    desc: Fundador de la comunidad R Users Group - Ecuador. Máster en Técnicas Estadística y Ph.D. Estadística e Investigación de Operaciones de la Universidad de La Coruña. Magister en Investigación Operativa con mención en Sistemas Logísticos y de Transporte de la EPN. Ingeniero en Estadística Informática de la ESPOL. Docente e Investigador del Departamento de Matemática de la EPN, Capacitador de la Sociedad Ecuatoriana de Estadística en R.
     url: https://www.linkedin.com/in/miguel-flores-sanchez/ 
   - name: Víctor Morales Oñate
     img: /img/people/victor.jpg
-    desc: Doctor (c) en Estadística, Universidad de Valparaíso, Chile. Magister (c) en Filosofía, Pontificia Universidad Católica de Valparaíso. Magister en Matemáticas Aplicadas de la USFQ. Ingeniero en Ciencias Económicas y Financieras de la EPN, Consultor, analista, docente y capacitador. Experto en análisis de datos y modelamiento econométrico de datos socioeconómicos y aplicaciones de estadística multivariante, Experto en estimación de áreas pequeñas y clasificación difusa, Investigador de estadística espacio-temporal.
+    desc: Doctor en Estadística, Universidad de Valparaíso, Chile. Magister en Filosofía, Pontificia Universidad Católica de Valparaíso. Magister en Matemáticas Aplicadas de la USFQ. Ingeniero en Ciencias Económicas y Financieras de la EPN, Consultor, analista, docente y capacitador. Experto en análisis de datos y modelamiento econométrico de datos socioeconómicos y aplicaciones de estadística multivariante, Experto en estimación de áreas pequeñas y clasificación difusa, Investigador de estadística espacio-temporal.
     url: https://www.linkedin.com/company/24979492/
   - name: Cristian Benalcázar
     img: /img/people/crb.jpg
-    desc: Ingeniero en Ciencias Económicas y Financieras de la EPN. Licenciado en Economía y Gestión, Jean Monnet, Francia. Especialista en Ciencia de datos de la Universidad Johns Hopkins. Especialista en análisis de datos para la toma de decisiones, Experto en automatización de modelos estadísticos y econométricos, Experto en el desarrollo de productos estadísticos y aplicaciones de consulta, captura, control y visualización, Experto en integración de lenguajes de programación y bases de datos con R.
+    desc: Especialista en Ciencia de datos de la Universidad Johns Hopkins. Especialista en análisis de datos para la toma de decisiones.  Ingeniero en Ciencias Económicas y Financieras de la EPN. Licenciado en Economía y Gestión, Jean Monnet, Francia.  Experto en automatización de modelos estadísticos y econométricos, Experto en el desarrollo de productos estadísticos y aplicaciones de consulta, captura, control y visualización, Experto en integración de lenguajes de programación y bases de datos con R.
     url: https://www.linkedin.com/in/cristian-benalcázar-62b8b93b/
   - name: Andrés Peña M.
     img: /img/people/andres.jpg
     desc:  Ph.D. (c) en Estudios de Población de El Colegio de México A.C., Máster en Población y Desarrollo de la FLACSO México, Diplomado en Econometría y Especialista en Estadística Aplicada por la UNAM, Especialista en Análisis Demográfico por CELADE.  Sus actuales intereses de investigación son la Demografía Matemática, Proyecciones Poblacionales, Estadística Social y Muestreo.
     url: https://www.linkedin.com/in/andrés-peña-m-608a802a/
-  - name: Ana Julia Escobar
-    img: /img/people/ana.jpg
-    desc: Ingeniera Matemática de la EPN. Maestrante en Matemática e interaccciones en la Universidad Paris-Saclay. Científica de datos Jr. Especialista en Investigación de Operaciones.
-    url: https://www.linkedin.com/in/anyescobar/
-  - name: Néstor Montaño Pulzara
-    img: /img/people/nestor.jpg
-    desc: Ingeniero en Estadística informática y Maestrante en Estadística con Mención en Calidad y Productividad de la ESPOL. Capacitador de la Sociedad Ecuatoriana de Estadística en R. Experto en manejo eficiente de grandes volúmenes de datos, Experto en automatización de informes, presentaciones o reportes con R, Especialista en muestreo, estadística multivariante, forecasting, algoritmos de clasificación, optimización, inteligencia de negocios y desarrollo de aplicaciones estadísticas.
-    url: https://www.linkedin.com/in/nestor-monta%C3%B1o/
   - name: Dayana Tipán Jiménez
     img: /img/people/daya.jpg
     desc:  Máster en Demografía por El Colegio de México A.C. e Ingeniera Estadística por la Universidad Central del Ecuador (UCE), especializada en temas de Fecundidad, Género y Cambio Social.  Docente de la Facultad de Ciencias Económicas de la UCE. Demógrafa del Instituto Nacional de Estadística y Censos (INEC). 
-    url: https://www.linkedin.com/in/dayana-tipan-079762147/
+    url: https://www.linkedin.com/in/dayana-tipan-079762147/    
+  - name: Néstor Montaño Pulzara
+    img: /img/people/nestor.jpg
+    desc: Máster en Estadística con Mención en Calidad y Productividad e Ingeniero en Estadística informática de la ESPOL. Capacitador de la Sociedad Ecuatoriana de Estadística en R. Experto en manejo eficiente de grandes volúmenes de datos, Experto en automatización de informes, presentaciones o reportes con R, Especialista en muestreo, estadística multivariante, forecasting, algoritmos de clasificación, optimización, inteligencia de negocios y desarrollo de aplicaciones estadísticas.
+    url: https://www.linkedin.com/in/nestor-monta%C3%B1o/
+  - name: Ana Julia Escobar
+    img: /img/people/ana.jpg
+    desc: Máster en Matemática e interaccciones en la Universidad Paris-Saclay. Ingeniera Matemática de la EPN. Científica de datos. Especialista en Investigación de Operaciones.
+    url: https://www.linkedin.com/in/anyescobar/
 
 
 consul-list:
